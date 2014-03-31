@@ -628,9 +628,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Unity-iPhone */ = {
+		1D6058900D05DD3D006BFB54 /* DuosCake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Unity-iPhone" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DuosCake" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				83D0C1FB0E6C8D5900EBCE5D /* ShellScript */,
@@ -642,7 +642,7 @@
 			);
 			dependencies = (
 			);
-			name = "Unity-iPhone";
+			name = DuosCake;
 			productName = "iPhone-target";
 			productReference = 1D6058910D05DD3D006BFB54 /* cake.app */;
 			productType = "com.apple.product-type.application";
@@ -668,7 +668,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Unity-iPhone */,
+				1D6058900D05DD3D006BFB54 /* DuosCake */,
 			);
 		};
 /* End PBXProject section */
@@ -946,7 +946,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Unity-iPhone" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DuosCake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058950D05DD3E006BFB54 /* Release */,
