@@ -8,6 +8,9 @@
 #import "MainViewController.h"
 //add by guoq-e
 
+// mod by icylydia
+#import "LCYMainViewController.h"
+
 @interface UnityAppController : NSObject<UIAccelerometerDelegate, UIApplicationDelegate>
 {
 	UnityView*			_unityView;
@@ -18,6 +21,9 @@
  	MainViewController *_mvc;
 	UIWindow *_window;
 	//add by guoq-e
+    
+    // mod by icylydia
+    UINavigationController *_icyMainVC;
 }
 // this one is called at the very end of didFinishLaunchingWithOptions:, after view hierarchy been created
 - (void)startUnity:(UIApplication*)application;

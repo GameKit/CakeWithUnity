@@ -9,6 +9,81 @@
 /* Begin PBXBuildFile section */
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		2F345D4A18E95E1500102068 /* DefaultCake.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF118E95E1500102068 /* DefaultCake.plist */; };
+		2F345D4B18E95E1500102068 /* AboutUs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF318E95E1500102068 /* AboutUs@2x.png */; };
+		2F345D4C18E95E1500102068 /* AboutUsSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */; };
+		2F345D4D18E95E1500102068 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF518E95E1500102068 /* background@2x.png */; };
+		2F345D4E18E95E1500102068 /* cakeDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF618E95E1500102068 /* cakeDemo@2x.png */; };
+		2F345D4F18E95E1500102068 /* defaultCakeDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */; };
+		2F345D5018E95E1500102068 /* defaultCakeDetailDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */; };
+		2F345D5118E95E1500102068 /* DefaultCakeMakeOrder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */; };
+		2F345D5218E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */; };
+		2F345D5318E95E1500102068 /* DefaultCakeSizeArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */; };
+		2F345D5418E95E1500102068 /* DefaultCakeSizeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */; };
+		2F345D5518E95E1500102068 /* defaultCakeTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */; };
+		2F345D5618E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */; };
+		2F345D5718E95E1500102068 /* DefaultDetailMessagePattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */; };
+		2F345D5818E95E1500102068 /* defaultDetailTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */; };
+		2F345D5918E95E1500102068 /* defaultDIYButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */; };
+		2F345D5A18E95E1500102068 /* defaultDIYButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */; };
+		2F345D5B18E95E1500102068 /* DefaultOrderBackPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */; };
+		2F345D5C18E95E1500102068 /* defaultOrderButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */; };
+		2F345D5D18E95E1500102068 /* defaultOrderButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */; };
+		2F345D5E18E95E1500102068 /* defaultOrderCakeBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */; };
+		2F345D5F18E95E1500102068 /* defaultOrderTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */; };
+		2F345D6018E95E1500102068 /* defaultSizePopBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */; };
+		2F345D6118E95E1500102068 /* DIYBitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0918E95E1500102068 /* DIYBitButton@2x.png */; };
+		2F345D6218E95E1500102068 /* DIYBitButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0A18E95E1500102068 /* DIYBitButtonSelected@2x.png */; };
+		2F345D6318E95E1500102068 /* fruitDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0B18E95E1500102068 /* fruitDemo@2x.png */; };
+		2F345D6418E95E1500102068 /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0C18E95E1500102068 /* left_arrow@2x.png */; };
+		2F345D6518E95E1500102068 /* mainChoose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0D18E95E1500102068 /* mainChoose@2x.png */; };
+		2F345D6618E95E1500102068 /* MainChooseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0E18E95E1500102068 /* MainChooseButton@2x.png */; };
+		2F345D6718E95E1500102068 /* MainChooseButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0F18E95E1500102068 /* MainChooseButtonSelected@2x.png */; };
+		2F345D6818E95E1500102068 /* mainDIY@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1018E95E1500102068 /* mainDIY@2x.png */; };
+		2F345D6918E95E1500102068 /* MainSlideBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1118E95E1500102068 /* MainSlideBackground@2x.png */; };
+		2F345D6A18E95E1500102068 /* mainTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1218E95E1500102068 /* mainTitle@2x.png */; };
+		2F345D6B18E95E1500102068 /* setting_cake_butterfly@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1318E95E1500102068 /* setting_cake_butterfly@2x.png */; };
+		2F345D6C18E95E1500102068 /* setting_cake_butterflySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1418E95E1500102068 /* setting_cake_butterflySelected@2x.png */; };
+		2F345D6D18E95E1500102068 /* setting_cake_pattern_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1518E95E1500102068 /* setting_cake_pattern_background@2x.png */; };
+		2F345D6E18E95E1500102068 /* setting_diy_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1618E95E1500102068 /* setting_diy_background@2x.png */; };
+		2F345D6F18E95E1500102068 /* setting_whisk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1718E95E1500102068 /* setting_whisk@2x.png */; };
+		2F345D7018E95E1500102068 /* setting_whiskSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */; };
+		2F345D7118E95E1500102068 /* settingConfirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1918E95E1500102068 /* settingConfirm@2x.png */; };
+		2F345D7218E95E1500102068 /* settingConfirmSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */; };
+		2F345D7318E95E1500102068 /* settingDownArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */; };
+		2F345D7418E95E1500102068 /* settingHeaderTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */; };
+		2F345D7518E95E1500102068 /* settingTick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1D18E95E1500102068 /* settingTick@2x.png */; };
+		2F345D7618E95E1500102068 /* settingTickBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1E18E95E1500102068 /* settingTickBack@2x.png */; };
+		2F345D7718E95E1500102068 /* SlideSiwtchButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */; };
+		2F345D7818E95E1500102068 /* source_cake_style@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2018E95E1500102068 /* source_cake_style@2x.png */; };
+		2F345D7918E95E1500102068 /* source_diy_source@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2118E95E1500102068 /* source_diy_source@2x.png */; };
+		2F345D7A18E95E1500102068 /* SourceSetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2218E95E1500102068 /* SourceSetting@2x.png */; };
+		2F345D7B18E95E1500102068 /* SourceSettingSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2318E95E1500102068 /* SourceSettingSelected@2x.png */; };
+		2F345D7C18E95E1500102068 /* titlePattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2418E95E1500102068 /* titlePattern@2x.png */; };
+		2F345D7D18E95E1500102068 /* VersionInfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2518E95E1500102068 /* VersionInfo@2x.png */; };
+		2F345D7E18E95E1500102068 /* VersionInfoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2618E95E1500102068 /* VersionInfoSelected@2x.png */; };
+		2F345D7F18E95E1500102068 /* LCYDefaultCakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */; };
+		2F345D8018E95E1500102068 /* LCYDefaultCakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */; };
+		2F345D8118E95E1500102068 /* LCYDefaultCakeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */; };
+		2F345D8218E95E1500102068 /* LCYDefaultCakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */; };
+		2F345D8318E95E1500102068 /* LCYDefaultCakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */; };
+		2F345D8418E95E1500102068 /* LCYDefaultDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3018E95E1500102068 /* LCYDefaultDetailTableViewCell.m */; };
+		2F345D8518E95E1500102068 /* LCYDefaultDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D3118E95E1500102068 /* LCYDefaultDetailTableViewCell.xib */; };
+		2F345D8618E95E1500102068 /* LCYDefaultDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3318E95E1500102068 /* LCYDefaultDetailViewController.m */; };
+		2F345D8718E95E1500102068 /* LCYDefaultDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D3418E95E1500102068 /* LCYDefaultDetailViewController.xib */; };
+		2F345D8818E95E1500102068 /* LCYDefaultOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3618E95E1500102068 /* LCYDefaultOrderViewController.m */; };
+		2F345D8918E95E1500102068 /* LCYDefaultOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D3718E95E1500102068 /* LCYDefaultOrderViewController.xib */; };
+		2F345D8A18E95E1500102068 /* LCYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3918E95E1500102068 /* LCYMainViewController.m */; };
+		2F345D8B18E95E1500102068 /* LCYMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D3A18E95E1500102068 /* LCYMainViewController.xib */; };
+		2F345D8C18E95E1500102068 /* LCYSettingDIYCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3C18E95E1500102068 /* LCYSettingDIYCell.m */; };
+		2F345D8D18E95E1500102068 /* LCYSettingDIYCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D3D18E95E1500102068 /* LCYSettingDIYCell.xib */; };
+		2F345D8E18E95E1500102068 /* LCYSourceSettingCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3F18E95E1500102068 /* LCYSourceSettingCollectionCell.m */; };
+		2F345D8F18E95E1500102068 /* LCYSourceSettingCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D4018E95E1500102068 /* LCYSourceSettingCollectionCell.xib */; };
+		2F345D9018E95E1500102068 /* LCYSourceSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D4218E95E1500102068 /* LCYSourceSettingViewController.m */; };
+		2F345D9118E95E1500102068 /* LCYSourceSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D4318E95E1500102068 /* LCYSourceSettingViewController.xib */; };
+		2F345D9218E95E1500102068 /* LCYCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D4618E95E1500102068 /* LCYCommon.m */; };
+		2F345D9318E95E1500102068 /* UIViewController+LCYTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D4818E95E1500102068 /* UIViewController+LCYTransitions.m */; };
+		2F345D9418E95E1500102068 /* mini.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D4918E95E1500102068 /* mini.ttf */; };
 		5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682F4B10F3B34FF007A219C /* MediaPlayer.framework */; };
 		5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */; };
 		56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B7959A1442E0F20026B3DD /* CoreGraphics.framework */; };
@@ -83,6 +158,93 @@
 		08B24F75137BFDFA00FBA309 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* cake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F345CF118E95E1500102068 /* DefaultCake.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultCake.plist; sourceTree = "<group>"; };
+		2F345CF318E95E1500102068 /* AboutUs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutUs@2x.png"; sourceTree = "<group>"; };
+		2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutUsSelected@2x.png"; sourceTree = "<group>"; };
+		2F345CF518E95E1500102068 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		2F345CF618E95E1500102068 /* cakeDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cakeDemo@2x.png"; sourceTree = "<group>"; };
+		2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeDemo@2x.png"; sourceTree = "<group>"; };
+		2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeDetailDemo@2x.png"; sourceTree = "<group>"; };
+		2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeMakeOrder@2x.png"; sourceTree = "<group>"; };
+		2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeMakeOrderSelected@2x.png"; sourceTree = "<group>"; };
+		2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeSizeArrow@2x.png"; sourceTree = "<group>"; };
+		2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeSizeBackground@2x.png"; sourceTree = "<group>"; };
+		2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeTitle@2x.png"; sourceTree = "<group>"; };
+		2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultDetailDescriptionBackground@2x.png"; sourceTree = "<group>"; };
+		2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultDetailMessagePattern@2x.png"; sourceTree = "<group>"; };
+		2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDetailTitle@2x.png"; sourceTree = "<group>"; };
+		2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDIYButton@2x.png"; sourceTree = "<group>"; };
+		2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDIYButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultOrderBackPattern@2x.png"; sourceTree = "<group>"; };
+		2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderButton@2x.png"; sourceTree = "<group>"; };
+		2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderCakeBg@2x.png"; sourceTree = "<group>"; };
+		2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderTitle@2x.png"; sourceTree = "<group>"; };
+		2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultSizePopBackground@2x.png"; sourceTree = "<group>"; };
+		2F345D0918E95E1500102068 /* DIYBitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DIYBitButton@2x.png"; sourceTree = "<group>"; };
+		2F345D0A18E95E1500102068 /* DIYBitButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DIYBitButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D0B18E95E1500102068 /* fruitDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fruitDemo@2x.png"; sourceTree = "<group>"; };
+		2F345D0C18E95E1500102068 /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrow@2x.png"; sourceTree = "<group>"; };
+		2F345D0D18E95E1500102068 /* mainChoose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainChoose@2x.png"; sourceTree = "<group>"; };
+		2F345D0E18E95E1500102068 /* MainChooseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainChooseButton@2x.png"; sourceTree = "<group>"; };
+		2F345D0F18E95E1500102068 /* MainChooseButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainChooseButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D1018E95E1500102068 /* mainDIY@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainDIY@2x.png"; sourceTree = "<group>"; };
+		2F345D1118E95E1500102068 /* MainSlideBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MainSlideBackground@2x.png"; sourceTree = "<group>"; };
+		2F345D1218E95E1500102068 /* mainTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainTitle@2x.png"; sourceTree = "<group>"; };
+		2F345D1318E95E1500102068 /* setting_cake_butterfly@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_cake_butterfly@2x.png"; sourceTree = "<group>"; };
+		2F345D1418E95E1500102068 /* setting_cake_butterflySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_cake_butterflySelected@2x.png"; sourceTree = "<group>"; };
+		2F345D1518E95E1500102068 /* setting_cake_pattern_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_cake_pattern_background@2x.png"; sourceTree = "<group>"; };
+		2F345D1618E95E1500102068 /* setting_diy_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_diy_background@2x.png"; sourceTree = "<group>"; };
+		2F345D1718E95E1500102068 /* setting_whisk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_whisk@2x.png"; sourceTree = "<group>"; };
+		2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_whiskSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D1918E95E1500102068 /* settingConfirm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingConfirm@2x.png"; sourceTree = "<group>"; };
+		2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingConfirmSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingDownArrow@2x.png"; sourceTree = "<group>"; };
+		2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingHeaderTitle@2x.png"; sourceTree = "<group>"; };
+		2F345D1D18E95E1500102068 /* settingTick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTick@2x.png"; sourceTree = "<group>"; };
+		2F345D1E18E95E1500102068 /* settingTickBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTickBack@2x.png"; sourceTree = "<group>"; };
+		2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlideSiwtchButton@2x.png"; sourceTree = "<group>"; };
+		2F345D2018E95E1500102068 /* source_cake_style@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "source_cake_style@2x.png"; sourceTree = "<group>"; };
+		2F345D2118E95E1500102068 /* source_diy_source@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "source_diy_source@2x.png"; sourceTree = "<group>"; };
+		2F345D2218E95E1500102068 /* SourceSetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SourceSetting@2x.png"; sourceTree = "<group>"; };
+		2F345D2318E95E1500102068 /* SourceSettingSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SourceSettingSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D2418E95E1500102068 /* titlePattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "titlePattern@2x.png"; sourceTree = "<group>"; };
+		2F345D2518E95E1500102068 /* VersionInfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VersionInfo@2x.png"; sourceTree = "<group>"; };
+		2F345D2618E95E1500102068 /* VersionInfoSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VersionInfoSelected@2x.png"; sourceTree = "<group>"; };
+		2F345D2718E95E1500102068 /* LCYDefaultCakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeCell.h; sourceTree = "<group>"; };
+		2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeCell.m; sourceTree = "<group>"; };
+		2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultCakeCell.xib; sourceTree = "<group>"; };
+		2F345D2A18E95E1500102068 /* LCYDefaultCakeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeDataModel.h; sourceTree = "<group>"; };
+		2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeDataModel.m; sourceTree = "<group>"; };
+		2F345D2C18E95E1500102068 /* LCYDefaultCakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeViewController.h; sourceTree = "<group>"; };
+		2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeViewController.m; sourceTree = "<group>"; };
+		2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultCakeViewController.xib; sourceTree = "<group>"; };
+		2F345D2F18E95E1500102068 /* LCYDefaultDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultDetailTableViewCell.h; sourceTree = "<group>"; };
+		2F345D3018E95E1500102068 /* LCYDefaultDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultDetailTableViewCell.m; sourceTree = "<group>"; };
+		2F345D3118E95E1500102068 /* LCYDefaultDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultDetailTableViewCell.xib; sourceTree = "<group>"; };
+		2F345D3218E95E1500102068 /* LCYDefaultDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultDetailViewController.h; sourceTree = "<group>"; };
+		2F345D3318E95E1500102068 /* LCYDefaultDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultDetailViewController.m; sourceTree = "<group>"; };
+		2F345D3418E95E1500102068 /* LCYDefaultDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultDetailViewController.xib; sourceTree = "<group>"; };
+		2F345D3518E95E1500102068 /* LCYDefaultOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultOrderViewController.h; sourceTree = "<group>"; };
+		2F345D3618E95E1500102068 /* LCYDefaultOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultOrderViewController.m; sourceTree = "<group>"; };
+		2F345D3718E95E1500102068 /* LCYDefaultOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultOrderViewController.xib; sourceTree = "<group>"; };
+		2F345D3818E95E1500102068 /* LCYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYMainViewController.h; sourceTree = "<group>"; };
+		2F345D3918E95E1500102068 /* LCYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYMainViewController.m; sourceTree = "<group>"; };
+		2F345D3A18E95E1500102068 /* LCYMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYMainViewController.xib; sourceTree = "<group>"; };
+		2F345D3B18E95E1500102068 /* LCYSettingDIYCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYSettingDIYCell.h; sourceTree = "<group>"; };
+		2F345D3C18E95E1500102068 /* LCYSettingDIYCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYSettingDIYCell.m; sourceTree = "<group>"; };
+		2F345D3D18E95E1500102068 /* LCYSettingDIYCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYSettingDIYCell.xib; sourceTree = "<group>"; };
+		2F345D3E18E95E1500102068 /* LCYSourceSettingCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYSourceSettingCollectionCell.h; sourceTree = "<group>"; };
+		2F345D3F18E95E1500102068 /* LCYSourceSettingCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYSourceSettingCollectionCell.m; sourceTree = "<group>"; };
+		2F345D4018E95E1500102068 /* LCYSourceSettingCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYSourceSettingCollectionCell.xib; sourceTree = "<group>"; };
+		2F345D4118E95E1500102068 /* LCYSourceSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYSourceSettingViewController.h; sourceTree = "<group>"; };
+		2F345D4218E95E1500102068 /* LCYSourceSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYSourceSettingViewController.m; sourceTree = "<group>"; };
+		2F345D4318E95E1500102068 /* LCYSourceSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYSourceSettingViewController.xib; sourceTree = "<group>"; };
+		2F345D4518E95E1500102068 /* LCYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYCommon.h; sourceTree = "<group>"; };
+		2F345D4618E95E1500102068 /* LCYCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYCommon.m; sourceTree = "<group>"; };
+		2F345D4718E95E1500102068 /* UIViewController+LCYTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCYTransitions.h"; sourceTree = "<group>"; };
+		2F345D4818E95E1500102068 /* UIViewController+LCYTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCYTransitions.m"; sourceTree = "<group>"; };
+		2F345D4918E95E1500102068 /* mini.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mini.ttf; sourceTree = "<group>"; };
 		5682F4B10F3B34FF007A219C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56B7959A1442E0F20026B3DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -246,6 +408,116 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2F345CF018E95E1500102068 /* CakeDIY */ = {
+			isa = PBXGroup;
+			children = (
+				2F345CF118E95E1500102068 /* DefaultCake.plist */,
+				2F345CF218E95E1500102068 /* IcyImages */,
+				2F345D2718E95E1500102068 /* LCYDefaultCakeCell.h */,
+				2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */,
+				2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */,
+				2F345D2A18E95E1500102068 /* LCYDefaultCakeDataModel.h */,
+				2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */,
+				2F345D2C18E95E1500102068 /* LCYDefaultCakeViewController.h */,
+				2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */,
+				2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */,
+				2F345D2F18E95E1500102068 /* LCYDefaultDetailTableViewCell.h */,
+				2F345D3018E95E1500102068 /* LCYDefaultDetailTableViewCell.m */,
+				2F345D3118E95E1500102068 /* LCYDefaultDetailTableViewCell.xib */,
+				2F345D3218E95E1500102068 /* LCYDefaultDetailViewController.h */,
+				2F345D3318E95E1500102068 /* LCYDefaultDetailViewController.m */,
+				2F345D3418E95E1500102068 /* LCYDefaultDetailViewController.xib */,
+				2F345D3518E95E1500102068 /* LCYDefaultOrderViewController.h */,
+				2F345D3618E95E1500102068 /* LCYDefaultOrderViewController.m */,
+				2F345D3718E95E1500102068 /* LCYDefaultOrderViewController.xib */,
+				2F345D3818E95E1500102068 /* LCYMainViewController.h */,
+				2F345D3918E95E1500102068 /* LCYMainViewController.m */,
+				2F345D3A18E95E1500102068 /* LCYMainViewController.xib */,
+				2F345D3B18E95E1500102068 /* LCYSettingDIYCell.h */,
+				2F345D3C18E95E1500102068 /* LCYSettingDIYCell.m */,
+				2F345D3D18E95E1500102068 /* LCYSettingDIYCell.xib */,
+				2F345D3E18E95E1500102068 /* LCYSourceSettingCollectionCell.h */,
+				2F345D3F18E95E1500102068 /* LCYSourceSettingCollectionCell.m */,
+				2F345D4018E95E1500102068 /* LCYSourceSettingCollectionCell.xib */,
+				2F345D4118E95E1500102068 /* LCYSourceSettingViewController.h */,
+				2F345D4218E95E1500102068 /* LCYSourceSettingViewController.m */,
+				2F345D4318E95E1500102068 /* LCYSourceSettingViewController.xib */,
+				2F345D4418E95E1500102068 /* Library */,
+				2F345D4918E95E1500102068 /* mini.ttf */,
+			);
+			path = CakeDIY;
+			sourceTree = "<group>";
+		};
+		2F345CF218E95E1500102068 /* IcyImages */ = {
+			isa = PBXGroup;
+			children = (
+				2F345CF318E95E1500102068 /* AboutUs@2x.png */,
+				2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */,
+				2F345CF518E95E1500102068 /* background@2x.png */,
+				2F345CF618E95E1500102068 /* cakeDemo@2x.png */,
+				2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */,
+				2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */,
+				2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */,
+				2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */,
+				2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */,
+				2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */,
+				2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */,
+				2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */,
+				2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */,
+				2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */,
+				2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */,
+				2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */,
+				2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */,
+				2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */,
+				2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */,
+				2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */,
+				2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */,
+				2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */,
+				2F345D0918E95E1500102068 /* DIYBitButton@2x.png */,
+				2F345D0A18E95E1500102068 /* DIYBitButtonSelected@2x.png */,
+				2F345D0B18E95E1500102068 /* fruitDemo@2x.png */,
+				2F345D0C18E95E1500102068 /* left_arrow@2x.png */,
+				2F345D0D18E95E1500102068 /* mainChoose@2x.png */,
+				2F345D0E18E95E1500102068 /* MainChooseButton@2x.png */,
+				2F345D0F18E95E1500102068 /* MainChooseButtonSelected@2x.png */,
+				2F345D1018E95E1500102068 /* mainDIY@2x.png */,
+				2F345D1118E95E1500102068 /* MainSlideBackground@2x.png */,
+				2F345D1218E95E1500102068 /* mainTitle@2x.png */,
+				2F345D1318E95E1500102068 /* setting_cake_butterfly@2x.png */,
+				2F345D1418E95E1500102068 /* setting_cake_butterflySelected@2x.png */,
+				2F345D1518E95E1500102068 /* setting_cake_pattern_background@2x.png */,
+				2F345D1618E95E1500102068 /* setting_diy_background@2x.png */,
+				2F345D1718E95E1500102068 /* setting_whisk@2x.png */,
+				2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */,
+				2F345D1918E95E1500102068 /* settingConfirm@2x.png */,
+				2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */,
+				2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */,
+				2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */,
+				2F345D1D18E95E1500102068 /* settingTick@2x.png */,
+				2F345D1E18E95E1500102068 /* settingTickBack@2x.png */,
+				2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */,
+				2F345D2018E95E1500102068 /* source_cake_style@2x.png */,
+				2F345D2118E95E1500102068 /* source_diy_source@2x.png */,
+				2F345D2218E95E1500102068 /* SourceSetting@2x.png */,
+				2F345D2318E95E1500102068 /* SourceSettingSelected@2x.png */,
+				2F345D2418E95E1500102068 /* titlePattern@2x.png */,
+				2F345D2518E95E1500102068 /* VersionInfo@2x.png */,
+				2F345D2618E95E1500102068 /* VersionInfoSelected@2x.png */,
+			);
+			path = IcyImages;
+			sourceTree = "<group>";
+		};
+		2F345D4418E95E1500102068 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2F345D4518E95E1500102068 /* LCYCommon.h */,
+				2F345D4618E95E1500102068 /* LCYCommon.m */,
+				2F345D4718E95E1500102068 /* UIViewController+LCYTransitions.h */,
+				2F345D4818E95E1500102068 /* UIViewController+LCYTransitions.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		8A3EDDC51615B7C1001839E9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +561,7 @@
 		B4FC748E18E1942F006AEB61 /* DSclass */ = {
 			isa = PBXGroup;
 			children = (
+				2F345CF018E95E1500102068 /* CakeDIY */,
 				B4FC748F18E1942F006AEB61 /* DiyCakeViewController.h */,
 				B4FC749018E1942F006AEB61 /* DiyCakeViewController.m */,
 				B4FC749118E1942F006AEB61 /* DiyCakeViewController.xib */,
@@ -402,10 +675,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F345D7218E95E1500102068 /* settingConfirmSelected@2x.png in Resources */,
+				2F345D5F18E95E1500102068 /* defaultOrderTitle@2x.png in Resources */,
+				2F345D6918E95E1500102068 /* MainSlideBackground@2x.png in Resources */,
+				2F345D5218E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png in Resources */,
+				2F345D7E18E95E1500102068 /* VersionInfoSelected@2x.png in Resources */,
+				2F345D6B18E95E1500102068 /* setting_cake_butterfly@2x.png in Resources */,
+				2F345D7C18E95E1500102068 /* titlePattern@2x.png in Resources */,
+				2F345D6418E95E1500102068 /* left_arrow@2x.png in Resources */,
+				2F345D5B18E95E1500102068 /* DefaultOrderBackPattern@2x.png in Resources */,
 				83DEA7430EACED0700D8A291 /* Default.png in Resources */,
+				2F345D8918E95E1500102068 /* LCYDefaultOrderViewController.xib in Resources */,
+				2F345D5718E95E1500102068 /* DefaultDetailMessagePattern@2x.png in Resources */,
+				2F345D7018E95E1500102068 /* setting_whiskSelected@2x.png in Resources */,
+				2F345D5D18E95E1500102068 /* defaultOrderButtonSelected@2x.png in Resources */,
+				2F345D7118E95E1500102068 /* settingConfirm@2x.png in Resources */,
+				2F345D5E18E95E1500102068 /* defaultOrderCakeBg@2x.png in Resources */,
+				2F345D6018E95E1500102068 /* defaultSizePopBackground@2x.png in Resources */,
+				2F345D4F18E95E1500102068 /* defaultCakeDemo@2x.png in Resources */,
+				2F345D7918E95E1500102068 /* source_diy_source@2x.png in Resources */,
+				2F345D6118E95E1500102068 /* DIYBitButton@2x.png in Resources */,
+				2F345D6318E95E1500102068 /* fruitDemo@2x.png in Resources */,
+				2F345D5318E95E1500102068 /* DefaultCakeSizeArrow@2x.png in Resources */,
+				2F345D6C18E95E1500102068 /* setting_cake_butterflySelected@2x.png in Resources */,
+				2F345D6D18E95E1500102068 /* setting_cake_pattern_background@2x.png in Resources */,
+				2F345D7418E95E1500102068 /* settingHeaderTitle@2x.png in Resources */,
+				2F345D5418E95E1500102068 /* DefaultCakeSizeBackground@2x.png in Resources */,
+				2F345D6E18E95E1500102068 /* setting_diy_background@2x.png in Resources */,
+				2F345D6218E95E1500102068 /* DIYBitButtonSelected@2x.png in Resources */,
+				2F345D7518E95E1500102068 /* settingTick@2x.png in Resources */,
+				2F345D6818E95E1500102068 /* mainDIY@2x.png in Resources */,
+				2F345D8B18E95E1500102068 /* LCYMainViewController.xib in Resources */,
 				B4FC749618E1942F006AEB61 /* DiyCakeViewController.xib in Resources */,
+				2F345D5118E95E1500102068 /* DefaultCakeMakeOrder@2x.png in Resources */,
+				2F345D6A18E95E1500102068 /* mainTitle@2x.png in Resources */,
+				2F345D8F18E95E1500102068 /* LCYSourceSettingCollectionCell.xib in Resources */,
+				2F345D9418E95E1500102068 /* mini.ttf in Resources */,
+				2F345D4C18E95E1500102068 /* AboutUsSelected@2x.png in Resources */,
 				83DEA7440EACED0700D8A291 /* Icon.png in Resources */,
 				B4FC749818E1942F006AEB61 /* MainViewController.xib in Resources */,
+				2F345D7818E95E1500102068 /* source_cake_style@2x.png in Resources */,
+				2F345D7718E95E1500102068 /* SlideSiwtchButton@2x.png in Resources */,
+				2F345D6518E95E1500102068 /* mainChoose@2x.png in Resources */,
+				2F345D4B18E95E1500102068 /* AboutUs@2x.png in Resources */,
+				2F345D8518E95E1500102068 /* LCYDefaultDetailTableViewCell.xib in Resources */,
+				2F345D8718E95E1500102068 /* LCYDefaultDetailViewController.xib in Resources */,
+				2F345D7B18E95E1500102068 /* SourceSettingSelected@2x.png in Resources */,
+				2F345D5018E95E1500102068 /* defaultCakeDetailDemo@2x.png in Resources */,
+				2F345D8318E95E1500102068 /* LCYDefaultCakeViewController.xib in Resources */,
+				2F345D5A18E95E1500102068 /* defaultDIYButtonSelected@2x.png in Resources */,
+				2F345D7D18E95E1500102068 /* VersionInfo@2x.png in Resources */,
+				2F345D5618E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png in Resources */,
+				2F345D7318E95E1500102068 /* settingDownArrow@2x.png in Resources */,
+				2F345D8D18E95E1500102068 /* LCYSettingDIYCell.xib in Resources */,
+				2F345D4D18E95E1500102068 /* background@2x.png in Resources */,
+				2F345D5918E95E1500102068 /* defaultDIYButton@2x.png in Resources */,
+				2F345D6F18E95E1500102068 /* setting_whisk@2x.png in Resources */,
+				2F345D8018E95E1500102068 /* LCYDefaultCakeCell.xib in Resources */,
+				2F345D7618E95E1500102068 /* settingTickBack@2x.png in Resources */,
+				2F345D9118E95E1500102068 /* LCYSourceSettingViewController.xib in Resources */,
+				2F345D4A18E95E1500102068 /* DefaultCake.plist in Resources */,
+				2F345D5818E95E1500102068 /* defaultDetailTitle@2x.png in Resources */,
+				2F345D6718E95E1500102068 /* MainChooseButtonSelected@2x.png in Resources */,
+				2F345D6618E95E1500102068 /* MainChooseButton@2x.png in Resources */,
+				2F345D4E18E95E1500102068 /* cakeDemo@2x.png in Resources */,
+				2F345D5C18E95E1500102068 /* defaultOrderButton@2x.png in Resources */,
+				2F345D7A18E95E1500102068 /* SourceSetting@2x.png in Resources */,
+				2F345D5518E95E1500102068 /* defaultCakeTitle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,39 +768,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F345D9318E95E1500102068 /* UIViewController+LCYTransitions.m in Sources */,
 				D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */,
 				D82DCFC50E8000A5005D6AD8 /* RegisterClasses.cpp in Sources */,
 				B48B9D3118E2B6A600E4E0B0 /* DSCustomView.m in Sources */,
 				D8A1C7000E80637F000160D4 /* Assembly-CSharp.dll.s in Sources */,
+				2F345D8E18E95E1500102068 /* LCYSourceSettingCollectionCell.m in Sources */,
+				2F345D8618E95E1500102068 /* LCYDefaultDetailViewController.m in Sources */,
 				D8A1C7001E80637F000160D4 /* Mono.Security.dll.s in Sources */,
+				2F345D9018E95E1500102068 /* LCYSourceSettingViewController.m in Sources */,
 				D8A1C7002E80637F000160D4 /* System.dll.s in Sources */,
 				D8A1C7003E80637F000160D4 /* UnityEngine.dll.s in Sources */,
 				D8A1C7004E80637F000160D4 /* mscorlib.dll.s in Sources */,
 				B4FC749718E1942F006AEB61 /* MainViewController.m in Sources */,
 				D8A1C7005E80637F000160D4 /* Icon@2x.png in Sources */,
 				D8A1C7006E80637F000160D4 /* Default-Landscape.png in Sources */,
+				2F345D8218E95E1500102068 /* LCYDefaultCakeViewController.m in Sources */,
 				D8A1C7007E80637F000160D4 /* Default-Portrait.png in Sources */,
 				D8A1C7008E80637F000160D4 /* Default-Landscape@2x.png in Sources */,
 				D8A1C7009E80637F000160D4 /* Default-Portrait@2x.png in Sources */,
 				D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */,
+				2F345D9218E95E1500102068 /* LCYCommon.m in Sources */,
 				8A2EF43E138549090070AA2F /* iPhone_Profiler.cpp in Sources */,
 				8A9EB22E156E5A25000DC2B4 /* iPhone_View.mm in Sources */,
 				56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */,
 				8A3EDDC81615B7C1001839E9 /* SplashScreen.mm in Sources */,
 				8AFA69D9161605E7009663A5 /* iPhone_OrientationSupport.mm in Sources */,
+				2F345D8A18E95E1500102068 /* LCYMainViewController.m in Sources */,
 				8A9FCB131617295F00C05364 /* ActivityIndicator.mm in Sources */,
 				8A592F4B16176267006B38FC /* VideoViewController.mm in Sources */,
 				8A21AED41622F59300AF8007 /* UnityViewControllerBase.mm in Sources */,
+				2F345D8818E95E1500102068 /* LCYDefaultOrderViewController.m in Sources */,
 				8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */,
 				8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */,
 				8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */,
+				2F345D8418E95E1500102068 /* LCYDefaultDetailTableViewCell.m in Sources */,
 				8A5E0B9116849D1800CBB6FE /* DisplayManager.mm in Sources */,
+				2F345D8118E95E1500102068 /* LCYDefaultCakeDataModel.m in Sources */,
 				8A367F5B16A6D36F0012ED11 /* CVTextureCache.mm in Sources */,
 				FC85CCBB16C3ED8000BAF7C7 /* CrashReporter.mm in Sources */,
 				B4FC749518E1942F006AEB61 /* DiyCakeViewController.m in Sources */,
 				8AB3CB3E16D390BB00697AD5 /* VideoPlayer.mm in Sources */,
 				8A2AA93516E0978D001FB470 /* CMVideoSampling.mm in Sources */,
+				2F345D7F18E95E1500102068 /* LCYDefaultCakeCell.m in Sources */,
 				8A851BA716FB2F6D00E911DB /* UnityView.mm in Sources */,
+				2F345D8C18E95E1500102068 /* LCYSettingDIYCell.m in Sources */,
 				8A851BAA16FB3AD000E911DB /* UnityAppController.mm in Sources */,
 				8ADF4E1C1779B92C00949AA7 /* DeviceSettings.mm in Sources */,
 			);

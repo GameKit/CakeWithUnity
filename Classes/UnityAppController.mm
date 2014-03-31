@@ -439,8 +439,15 @@ void UnityInitTrampoline()
 	//del by guoq-e
 //add by guoq-s
 	_window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	_mvc = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
-	_window.rootViewController = _mvc;
+//	_mvc = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+//	_window.rootViewController = _mvc;
+
+    
+    // mod by icylydia
+    LCYMainViewController *mainVC = [[LCYMainViewController alloc] init];
+    _icyMainVC = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    [_icyMainVC setNavigationBarHidden:YES];
+    _window.rootViewController = _icyMainVC;
 	[_window makeKeyAndVisible];
 
 	return NO;
@@ -549,7 +556,8 @@ void UnityInitTrampoline()
 {
     [[[UnityGetMainWindow() rootViewController] view] setHidden:YES];
 
-	_window.rootViewController = _mvc;
+//	_window.rootViewController = _mvc;
+    _window.rootViewController = _icyMainVC;
     
 	[_window makeKeyAndVisible];
     //[_rootController dismissModalViewControllerAnimated:YES];
