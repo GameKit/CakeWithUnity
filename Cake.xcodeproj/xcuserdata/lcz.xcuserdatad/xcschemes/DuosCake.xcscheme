@@ -17,7 +17,7 @@
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "cake.app"
                BlueprintName = "DuosCake"
-               ReferencedContainer = "container:Unity-iPhone.xcodeproj">
+               ReferencedContainer = "container:Cake.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "cake.app"
             BlueprintName = "DuosCake"
-            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
+            ReferencedContainer = "container:Cake.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "cake.app"
             BlueprintName = "DuosCake"
-            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
+            ReferencedContainer = "container:Cake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +72,7 @@
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "cake.app"
             BlueprintName = "DuosCake"
-            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
+            ReferencedContainer = "container:Cake.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

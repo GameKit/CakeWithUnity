@@ -103,7 +103,7 @@
 }
 
 - (IBAction)listButtonPressed:(id)sender {
-    CGRect frame = CGRectMake(580, 375, self.sizePopView.frame.size.width, self.sizePopView.frame.size.height);
+    CGRect frame = CGRectMake(580, 364, self.sizePopView.frame.size.width, self.sizePopView.frame.size.height);
     [self.sizePopView setFrame:frame];
     if (!self.sizePopView.superview) {
         [self.view addSubview:self.sizePopView];

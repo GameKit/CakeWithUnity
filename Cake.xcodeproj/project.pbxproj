@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		2F02DDEF18EA5EC50043DD75 /* diySideLv1Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDEE18EA5EC50043DD75 /* diySideLv1Background@2x.png */; };
+		2F02DDF218EA5FB30043DD75 /* diySideLv1Fruit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF018EA5FB30043DD75 /* diySideLv1Fruit@2x.png */; };
+		2F02DDF318EA5FB30043DD75 /* diySideLv1FruitSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF118EA5FB30043DD75 /* diySideLv1FruitSelected@2x.png */; };
+		2F02DDF618EA60680043DD75 /* diySideLv1Candle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF418EA60680043DD75 /* diySideLv1Candle@2x.png */; };
+		2F02DDF718EA60680043DD75 /* diySideLv1CandleSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF518EA60680043DD75 /* diySideLv1CandleSelected@2x.png */; };
+		2F02DDFA18EA610D0043DD75 /* diySideLv1Cookie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF818EA610D0043DD75 /* diySideLv1Cookie@2x.png */; };
+		2F02DDFB18EA610D0043DD75 /* diySideLv1CookieSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDF918EA610D0043DD75 /* diySideLv1CookieSelected@2x.png */; };
+		2F02DDFE18EA61A20043DD75 /* diySideLv1Example@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDFC18EA61A20043DD75 /* diySideLv1Example@2x.png */; };
+		2F02DDFF18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DDFD18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png */; };
+		2F02DE0218EA62170043DD75 /* diySideLv1Others@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DE0018EA62170043DD75 /* diySideLv1Others@2x.png */; };
+		2F02DE0318EA62170043DD75 /* diySideLv1OthersSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F02DE0118EA62170043DD75 /* diySideLv1OthersSelected@2x.png */; };
 		2F345D4A18E95E1500102068 /* DefaultCake.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF118E95E1500102068 /* DefaultCake.plist */; };
 		2F345D4B18E95E1500102068 /* AboutUs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF318E95E1500102068 /* AboutUs@2x.png */; };
 		2F345D4C18E95E1500102068 /* AboutUsSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */; };
@@ -159,6 +170,17 @@
 		08B24F75137BFDFA00FBA309 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* cake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F02DDEE18EA5EC50043DD75 /* diySideLv1Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Background@2x.png"; sourceTree = "<group>"; };
+		2F02DDF018EA5FB30043DD75 /* diySideLv1Fruit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Fruit@2x.png"; sourceTree = "<group>"; };
+		2F02DDF118EA5FB30043DD75 /* diySideLv1FruitSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1FruitSelected@2x.png"; sourceTree = "<group>"; };
+		2F02DDF418EA60680043DD75 /* diySideLv1Candle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Candle@2x.png"; sourceTree = "<group>"; };
+		2F02DDF518EA60680043DD75 /* diySideLv1CandleSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1CandleSelected@2x.png"; sourceTree = "<group>"; };
+		2F02DDF818EA610D0043DD75 /* diySideLv1Cookie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Cookie@2x.png"; sourceTree = "<group>"; };
+		2F02DDF918EA610D0043DD75 /* diySideLv1CookieSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1CookieSelected@2x.png"; sourceTree = "<group>"; };
+		2F02DDFC18EA61A20043DD75 /* diySideLv1Example@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Example@2x.png"; sourceTree = "<group>"; };
+		2F02DDFD18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1ExampleSelected@2x.png"; sourceTree = "<group>"; };
+		2F02DE0018EA62170043DD75 /* diySideLv1Others@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1Others@2x.png"; sourceTree = "<group>"; };
+		2F02DE0118EA62170043DD75 /* diySideLv1OthersSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diySideLv1OthersSelected@2x.png"; sourceTree = "<group>"; };
 		2F345CF118E95E1500102068 /* DefaultCake.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultCake.plist; sourceTree = "<group>"; };
 		2F345CF318E95E1500102068 /* AboutUs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutUs@2x.png"; sourceTree = "<group>"; };
 		2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutUsSelected@2x.png"; sourceTree = "<group>"; };
@@ -454,6 +476,17 @@
 		2F345CF218E95E1500102068 /* IcyImages */ = {
 			isa = PBXGroup;
 			children = (
+				2F02DE0018EA62170043DD75 /* diySideLv1Others@2x.png */,
+				2F02DE0118EA62170043DD75 /* diySideLv1OthersSelected@2x.png */,
+				2F02DDFC18EA61A20043DD75 /* diySideLv1Example@2x.png */,
+				2F02DDFD18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png */,
+				2F02DDF818EA610D0043DD75 /* diySideLv1Cookie@2x.png */,
+				2F02DDF918EA610D0043DD75 /* diySideLv1CookieSelected@2x.png */,
+				2F02DDF418EA60680043DD75 /* diySideLv1Candle@2x.png */,
+				2F02DDF518EA60680043DD75 /* diySideLv1CandleSelected@2x.png */,
+				2F02DDF018EA5FB30043DD75 /* diySideLv1Fruit@2x.png */,
+				2F02DDF118EA5FB30043DD75 /* diySideLv1FruitSelected@2x.png */,
+				2F02DDEE18EA5EC50043DD75 /* diySideLv1Background@2x.png */,
 				2F345CF318E95E1500102068 /* AboutUs@2x.png */,
 				2F345CF418E95E1500102068 /* AboutUsSelected@2x.png */,
 				2F345CF518E95E1500102068 /* background@2x.png */,
@@ -654,7 +687,7 @@
 			isa = PBXProject;
 			attributes = {
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Unity-iPhone" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cake" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -686,15 +719,18 @@
 				2F345D6B18E95E1500102068 /* setting_cake_butterfly@2x.png in Resources */,
 				2F345D7C18E95E1500102068 /* titlePattern@2x.png in Resources */,
 				2F345D6418E95E1500102068 /* left_arrow@2x.png in Resources */,
+				2F02DDF318EA5FB30043DD75 /* diySideLv1FruitSelected@2x.png in Resources */,
 				2F345D5B18E95E1500102068 /* DefaultOrderBackPattern@2x.png in Resources */,
 				83DEA7430EACED0700D8A291 /* Default.png in Resources */,
 				2F345D8918E95E1500102068 /* LCYDefaultOrderViewController.xib in Resources */,
+				2F02DDFF18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png in Resources */,
 				2F345D5718E95E1500102068 /* DefaultDetailMessagePattern@2x.png in Resources */,
 				2F345D7018E95E1500102068 /* setting_whiskSelected@2x.png in Resources */,
 				2F345D5D18E95E1500102068 /* defaultOrderButtonSelected@2x.png in Resources */,
 				2F345D7118E95E1500102068 /* settingConfirm@2x.png in Resources */,
 				2F345D5E18E95E1500102068 /* defaultOrderCakeBg@2x.png in Resources */,
 				2F345D6018E95E1500102068 /* defaultSizePopBackground@2x.png in Resources */,
+				2F02DE0218EA62170043DD75 /* diySideLv1Others@2x.png in Resources */,
 				2F345D4F18E95E1500102068 /* defaultCakeDemo@2x.png in Resources */,
 				2F345D7918E95E1500102068 /* source_diy_source@2x.png in Resources */,
 				2F345D6118E95E1500102068 /* DIYBitButton@2x.png in Resources */,
@@ -718,16 +754,20 @@
 				83DEA7440EACED0700D8A291 /* Icon.png in Resources */,
 				B4FC749818E1942F006AEB61 /* MainViewController.xib in Resources */,
 				2F345D7818E95E1500102068 /* source_cake_style@2x.png in Resources */,
+				2F02DDF618EA60680043DD75 /* diySideLv1Candle@2x.png in Resources */,
 				2F345D7718E95E1500102068 /* SlideSiwtchButton@2x.png in Resources */,
+				2F02DDFE18EA61A20043DD75 /* diySideLv1Example@2x.png in Resources */,
 				2F345D6518E95E1500102068 /* mainChoose@2x.png in Resources */,
 				2F345D4B18E95E1500102068 /* AboutUs@2x.png in Resources */,
 				2F345D8518E95E1500102068 /* LCYDefaultDetailTableViewCell.xib in Resources */,
 				2F345D8718E95E1500102068 /* LCYDefaultDetailViewController.xib in Resources */,
 				2F345D9618E9662200102068 /* Images.xcassets in Resources */,
+				2F02DDF718EA60680043DD75 /* diySideLv1CandleSelected@2x.png in Resources */,
 				2F345D7B18E95E1500102068 /* SourceSettingSelected@2x.png in Resources */,
 				2F345D5018E95E1500102068 /* defaultCakeDetailDemo@2x.png in Resources */,
 				2F345D8318E95E1500102068 /* LCYDefaultCakeViewController.xib in Resources */,
 				2F345D5A18E95E1500102068 /* defaultDIYButtonSelected@2x.png in Resources */,
+				2F02DDEF18EA5EC50043DD75 /* diySideLv1Background@2x.png in Resources */,
 				2F345D7D18E95E1500102068 /* VersionInfo@2x.png in Resources */,
 				2F345D5618E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png in Resources */,
 				2F345D7318E95E1500102068 /* settingDownArrow@2x.png in Resources */,
@@ -737,14 +777,18 @@
 				2F345D6F18E95E1500102068 /* setting_whisk@2x.png in Resources */,
 				2F345D8018E95E1500102068 /* LCYDefaultCakeCell.xib in Resources */,
 				2F345D7618E95E1500102068 /* settingTickBack@2x.png in Resources */,
+				2F02DE0318EA62170043DD75 /* diySideLv1OthersSelected@2x.png in Resources */,
 				2F345D9118E95E1500102068 /* LCYSourceSettingViewController.xib in Resources */,
 				2F345D4A18E95E1500102068 /* DefaultCake.plist in Resources */,
 				2F345D5818E95E1500102068 /* defaultDetailTitle@2x.png in Resources */,
 				2F345D6718E95E1500102068 /* MainChooseButtonSelected@2x.png in Resources */,
 				2F345D6618E95E1500102068 /* MainChooseButton@2x.png in Resources */,
+				2F02DDFB18EA610D0043DD75 /* diySideLv1CookieSelected@2x.png in Resources */,
 				2F345D4E18E95E1500102068 /* cakeDemo@2x.png in Resources */,
 				2F345D5C18E95E1500102068 /* defaultOrderButton@2x.png in Resources */,
+				2F02DDF218EA5FB30043DD75 /* diySideLv1Fruit@2x.png in Resources */,
 				2F345D7A18E95E1500102068 /* SourceSetting@2x.png in Resources */,
+				2F02DDFA18EA610D0043DD75 /* diySideLv1Cookie@2x.png in Resources */,
 				2F345D5518E95E1500102068 /* defaultCakeTitle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -955,7 +999,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Unity-iPhone" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF5008A954540054247B /* Release */,

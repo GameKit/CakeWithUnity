@@ -21,6 +21,7 @@
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     // Initialization code
     self.textLabel.backgroundColor = [UIColor clearColor];
 }

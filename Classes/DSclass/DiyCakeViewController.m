@@ -11,6 +11,9 @@
 
 @interface DiyCakeViewController ()
 
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *sideLv1Labels;
+
+
 @end
 
 @implementation DiyCakeViewController
@@ -28,12 +31,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    for (UILabel *oneLabel in self.sideLv1Labels) {
+        [oneLabel setFont:[UIFont fontWithName:@"GJJZQJW--GB1-0" size:18]];
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (BOOL)prefersStatusBarHidden{
+    return YES;
 }
 
 - (NSUInteger)supportedInterfaceOrientations{

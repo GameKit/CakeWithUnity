@@ -333,7 +333,7 @@ void UnityInitTrampoline()
 //    UIImageView *background = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
 //    [background setImage:[UIImage imageNamed:@"background.png"]];
 //    [_unityView addSubview:background];
-    _unityView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+//    _unityView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
     // mod end
     
     

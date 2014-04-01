@@ -38,8 +38,12 @@
     NSLog(@"rect is %f, %f, %f, %f", backBtn.frame.size.width, backBtn.frame.size.height, backBtn.frame.origin.x, backBtn.frame.origin.y);
     [super pointInside:point withEvent:event];
     if (CGRectContainsPoint(CGRectMake(0.f, 0.f, 200.f, 100.f), point)) {
-        
             NSLog(@"second view pointInside point");
+        return YES;
+    }
+    // 第一级菜单
+    if (CGRectContainsPoint(CGRectMake(860, 0, 164, 768), point)) {
+        NSLog(@"第一级菜单");
         return YES;
     }
     
