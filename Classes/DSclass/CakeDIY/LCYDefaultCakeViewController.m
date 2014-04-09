@@ -8,9 +8,10 @@
 
 #import "LCYDefaultCakeViewController.h"
 #import "LCYDefaultCakeCell.h"
-#import "LCYDefaultCakeDataModel.h"
 #import "LCYDefaultDetailViewController.h"
 #import "UnityAppController.h"
+
+#import "DefaultCake.h"
 
 @interface LCYDefaultCakeViewController ()
 <UICollectionViewDelegate,UICollectionViewDataSource>
@@ -19,7 +20,8 @@
 }
 
 @property (strong, nonatomic) NSArray *defaultCakeArray;
-@property (strong, nonatomic) NSArray *defaultCakeDataModelArray;
+
+@property (strong, nonatomic) NSManagedObjectContext *context;
 
 @end
 
@@ -40,22 +42,22 @@
     // Do any additional setup after loading the view from its nib.
     isNibRegistered = NO;
     
-    NSString *plistFilePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
-    self.defaultCakeArray = [NSArray arrayWithContentsOfFile:plistFilePath];
-    NSAssert(self.defaultCakeArray!=nil, @"载入配置文件失败");
-    NSMutableArray *tmpArray = [[NSMutableArray alloc] init];
-    for (NSDictionary *oneDictionary in self.defaultCakeArray) {
-        LCYDefaultCakeDataModel *oneCakeDataModel = [[LCYDefaultCakeDataModel alloc] init];
-        oneCakeDataModel.id__ = [(NSNumber *)[oneDictionary objectForKey:@"id"] stringValue];
-        oneCakeDataModel.name = [oneDictionary objectForKey:@"name"];
-        oneCakeDataModel.image = [oneDictionary objectForKey:@"image"];
-        oneCakeDataModel.price = [oneDictionary objectForKey:@"prise"];
-        oneCakeDataModel.material = [oneDictionary objectForKey:@"material"];
-        oneCakeDataModel.description__ = [oneDictionary objectForKey:@"description"];
-        oneCakeDataModel.size = [NSArray arrayWithArray:[oneDictionary objectForKey:@"size"]];
-        [tmpArray addObject:oneCakeDataModel];
+    UnityAppController *ad = (UnityAppController *)[UIApplication sharedApplication].delegate;
+    self.context = ad.managedObjectContext;
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"DefaultCake" inManagedObjectContext:self.context];
+    [fetchRequest setEntity:entity];
+    
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"selected == 1"];
+    [fetchRequest setPredicate:predicate];
+    
+    NSError *error = nil;
+    NSArray *fetchedObjects = [self.context executeFetchRequest:fetchRequest error:&error];
+    if (fetchedObjects == nil) {
+        abort();
     }
-    self.defaultCakeDataModelArray = [NSArray arrayWithArray:tmpArray];
+    self.defaultCakeArray = [NSArray arrayWithArray:fetchedObjects];
 }
 
 - (void)didReceiveMemoryWarning
@@ -83,10 +85,10 @@
 
 #pragma mark - UICollectionView DataSource And Delegate Methods
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    if (self.defaultCakeDataModelArray) {
-        return [self.defaultCakeDataModelArray count];
+    if (self.defaultCakeArray) {
+        return [self.defaultCakeArray count];
     }
-    return 88;
+    return 0;
 }
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString * identifier = @"LCYDefaultCakeCellIdentifier";
@@ -97,13 +99,17 @@
     }
     LCYDefaultCakeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier
                                                                          forIndexPath:indexPath];
-    cell.icyImageView.image = [UIImage imageNamed:@"defaultCakeDemo.png"];
+    DefaultCake *cake = [self.defaultCakeArray objectAtIndex:indexPath.row];
+    NSString *imageName = cake.image;
+    NSString *cakeName = cake.name;
+    cell.icyImageView.image = [UIImage imageNamed:imageName];
     cell.nameLabel.font = [UIFont fontWithName:@"GJJZQJW--GB1-0" size:22];
+    cell.nameLabel.text = cakeName;
     return cell;
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     LCYDefaultDetailViewController *detailVC = [[LCYDefaultDetailViewController alloc] init];
-    detailVC.icyCake = [self.defaultCakeDataModelArray objectAtIndex:indexPath.row];
+    detailVC.icyCake = [self.defaultCakeArray objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailVC animated:YES];
 }
 @end

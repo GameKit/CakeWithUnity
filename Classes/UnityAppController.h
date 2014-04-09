@@ -10,6 +10,7 @@
 
 // mod by icylydia
 #import "LCYMainViewController.h"
+// end mod icylydia
 
 @interface UnityAppController : NSObject<UIAccelerometerDelegate, UIApplicationDelegate>
 {
@@ -24,6 +25,7 @@
     
     // mod by icylydia
     UINavigationController *_icyMainVC;
+    // end mod icylydia
 }
 // this one is called at the very end of didFinishLaunchingWithOptions:, after view hierarchy been created
 - (void)startUnity:(UIApplication*)application;
@@ -53,6 +55,16 @@
 - (void) dsStartUnity;
 - (void) backToMain;
 //add by guoq-e
+
+
+// mod by icylydia
+// add CoreData Support
+@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+- (void)saveContext;
+- (NSURL *)applicationDocumentsDirectory;
+// end mod icylydia
 
 @end
 

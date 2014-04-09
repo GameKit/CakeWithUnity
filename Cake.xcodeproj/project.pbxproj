@@ -75,7 +75,6 @@
 		2F345D7E18E95E1500102068 /* VersionInfoSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2618E95E1500102068 /* VersionInfoSelected@2x.png */; };
 		2F345D7F18E95E1500102068 /* LCYDefaultCakeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */; };
 		2F345D8018E95E1500102068 /* LCYDefaultCakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */; };
-		2F345D8118E95E1500102068 /* LCYDefaultCakeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */; };
 		2F345D8218E95E1500102068 /* LCYDefaultCakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */; };
 		2F345D8318E95E1500102068 /* LCYDefaultCakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */; };
 		2F345D8418E95E1500102068 /* LCYDefaultDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D3018E95E1500102068 /* LCYDefaultDetailTableViewCell.m */; };
@@ -96,6 +95,12 @@
 		2F345D9318E95E1500102068 /* UIViewController+LCYTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F345D4818E95E1500102068 /* UIViewController+LCYTransitions.m */; };
 		2F345D9418E95E1500102068 /* mini.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D4918E95E1500102068 /* mini.ttf */; };
 		2F345D9618E9662200102068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D9518E9662200102068 /* Images.xcassets */; };
+		2F3D28AA18F53BDB00C9B136 /* CakeDIY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28A818F53BDB00C9B136 /* CakeDIY.xcdatamodeld */; };
+		2F3D28B418F53D0600C9B136 /* CakeSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28AF18F53D0600C9B136 /* CakeSize.m */; };
+		2F3D28B518F53D0600C9B136 /* DefaultCake.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28B118F53D0600C9B136 /* DefaultCake.m */; };
+		2F3D28B618F53D0600C9B136 /* DefaultToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28B318F53D0600C9B136 /* DefaultToSize.m */; };
+		2F3D28B818F54CD000C9B136 /* CoreDataGenerator.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2F3D28B718F54CD000C9B136 /* CoreDataGenerator.sqlite */; };
+		2FD6DBDA18EE5B8900159DD0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD6DBD918EE5B8900159DD0 /* CoreData.framework */; };
 		5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682F4B10F3B34FF007A219C /* MediaPlayer.framework */; };
 		5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */; };
 		56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B7959A1442E0F20026B3DD /* CoreGraphics.framework */; };
@@ -237,8 +242,6 @@
 		2F345D2718E95E1500102068 /* LCYDefaultCakeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeCell.h; sourceTree = "<group>"; };
 		2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeCell.m; sourceTree = "<group>"; };
 		2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultCakeCell.xib; sourceTree = "<group>"; };
-		2F345D2A18E95E1500102068 /* LCYDefaultCakeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeDataModel.h; sourceTree = "<group>"; };
-		2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeDataModel.m; sourceTree = "<group>"; };
 		2F345D2C18E95E1500102068 /* LCYDefaultCakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCYDefaultCakeViewController.h; sourceTree = "<group>"; };
 		2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCYDefaultCakeViewController.m; sourceTree = "<group>"; };
 		2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCYDefaultCakeViewController.xib; sourceTree = "<group>"; };
@@ -269,6 +272,15 @@
 		2F345D4818E95E1500102068 /* UIViewController+LCYTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCYTransitions.m"; sourceTree = "<group>"; };
 		2F345D4918E95E1500102068 /* mini.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mini.ttf; sourceTree = "<group>"; };
 		2F345D9518E9662200102068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Unity-iPhone/Images.xcassets"; sourceTree = "<group>"; };
+		2F3D28A918F53BDB00C9B136 /* CakeDIY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CakeDIY.xcdatamodel; sourceTree = "<group>"; };
+		2F3D28AE18F53D0600C9B136 /* CakeSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeSize.h; sourceTree = "<group>"; };
+		2F3D28AF18F53D0600C9B136 /* CakeSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeSize.m; sourceTree = "<group>"; };
+		2F3D28B018F53D0600C9B136 /* DefaultCake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultCake.h; sourceTree = "<group>"; };
+		2F3D28B118F53D0600C9B136 /* DefaultCake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultCake.m; sourceTree = "<group>"; };
+		2F3D28B218F53D0600C9B136 /* DefaultToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultToSize.h; sourceTree = "<group>"; };
+		2F3D28B318F53D0600C9B136 /* DefaultToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultToSize.m; sourceTree = "<group>"; };
+		2F3D28B718F54CD000C9B136 /* CoreDataGenerator.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataGenerator.sqlite; sourceTree = "<group>"; };
+		2FD6DBD918EE5B8900159DD0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5682F4B10F3B34FF007A219C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		56B7959A1442E0F20026B3DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -360,6 +372,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD6DBDA18EE5B8900159DD0 /* CoreData.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */,
 				83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */,
@@ -396,6 +409,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				2F3D28B718F54CD000C9B136 /* CoreDataGenerator.sqlite */,
+				2F3D28A818F53BDB00C9B136 /* CakeDIY.xcdatamodeld */,
 				2F345D9518E9662200102068 /* Images.xcassets */,
 				83DEA7410EACED0700D8A291 /* Default.png */,
 				83DEA7420EACED0700D8A291 /* Icon.png */,
@@ -411,6 +426,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2FD6DBD918EE5B8900159DD0 /* CoreData.framework */,
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */,
 				5682F4B10F3B34FF007A219C /* MediaPlayer.framework */,
@@ -441,8 +457,6 @@
 				2F345D2718E95E1500102068 /* LCYDefaultCakeCell.h */,
 				2F345D2818E95E1500102068 /* LCYDefaultCakeCell.m */,
 				2F345D2918E95E1500102068 /* LCYDefaultCakeCell.xib */,
-				2F345D2A18E95E1500102068 /* LCYDefaultCakeDataModel.h */,
-				2F345D2B18E95E1500102068 /* LCYDefaultCakeDataModel.m */,
 				2F345D2C18E95E1500102068 /* LCYDefaultCakeViewController.h */,
 				2F345D2D18E95E1500102068 /* LCYDefaultCakeViewController.m */,
 				2F345D2E18E95E1500102068 /* LCYDefaultCakeViewController.xib */,
@@ -554,6 +568,19 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
+		2F3D28AD18F53CFC00C9B136 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2F3D28AE18F53D0600C9B136 /* CakeSize.h */,
+				2F3D28AF18F53D0600C9B136 /* CakeSize.m */,
+				2F3D28B018F53D0600C9B136 /* DefaultCake.h */,
+				2F3D28B118F53D0600C9B136 /* DefaultCake.m */,
+				2F3D28B218F53D0600C9B136 /* DefaultToSize.h */,
+				2F3D28B318F53D0600C9B136 /* DefaultToSize.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		8A3EDDC51615B7C1001839E9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +624,7 @@
 		B4FC748E18E1942F006AEB61 /* DSclass */ = {
 			isa = PBXGroup;
 			children = (
+				2F3D28AD18F53CFC00C9B136 /* CoreData */,
 				2F345CF018E95E1500102068 /* CakeDIY */,
 				B4FC748F18E1942F006AEB61 /* DiyCakeViewController.h */,
 				B4FC749018E1942F006AEB61 /* DiyCakeViewController.m */,
@@ -713,6 +741,7 @@
 			files = (
 				2F345D7218E95E1500102068 /* settingConfirmSelected@2x.png in Resources */,
 				2F345D5F18E95E1500102068 /* defaultOrderTitle@2x.png in Resources */,
+				2F3D28B818F54CD000C9B136 /* CoreDataGenerator.sqlite in Resources */,
 				2F345D6918E95E1500102068 /* MainSlideBackground@2x.png in Resources */,
 				2F345D5218E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png in Resources */,
 				2F345D7E18E95E1500102068 /* VersionInfoSelected@2x.png in Resources */,
@@ -838,6 +867,7 @@
 				D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */,
 				2F345D9218E95E1500102068 /* LCYCommon.m in Sources */,
 				8A2EF43E138549090070AA2F /* iPhone_Profiler.cpp in Sources */,
+				2F3D28AA18F53BDB00C9B136 /* CakeDIY.xcdatamodeld in Sources */,
 				8A9EB22E156E5A25000DC2B4 /* iPhone_View.mm in Sources */,
 				56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */,
 				8A3EDDC81615B7C1001839E9 /* SplashScreen.mm in Sources */,
@@ -848,15 +878,17 @@
 				8A21AED41622F59300AF8007 /* UnityViewControllerBase.mm in Sources */,
 				2F345D8818E95E1500102068 /* LCYDefaultOrderViewController.m in Sources */,
 				8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */,
+				2F3D28B618F53D0600C9B136 /* DefaultToSize.m in Sources */,
 				8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */,
 				8A1FFFAD16512A9000DD0934 /* GlesHelper.mm in Sources */,
 				2F345D8418E95E1500102068 /* LCYDefaultDetailTableViewCell.m in Sources */,
 				8A5E0B9116849D1800CBB6FE /* DisplayManager.mm in Sources */,
-				2F345D8118E95E1500102068 /* LCYDefaultCakeDataModel.m in Sources */,
 				8A367F5B16A6D36F0012ED11 /* CVTextureCache.mm in Sources */,
 				FC85CCBB16C3ED8000BAF7C7 /* CrashReporter.mm in Sources */,
+				2F3D28B418F53D0600C9B136 /* CakeSize.m in Sources */,
 				B4FC749518E1942F006AEB61 /* DiyCakeViewController.m in Sources */,
 				8AB3CB3E16D390BB00697AD5 /* VideoPlayer.mm in Sources */,
+				2F3D28B518F53D0600C9B136 /* DefaultCake.m in Sources */,
 				8A2AA93516E0978D001FB470 /* CMVideoSampling.mm in Sources */,
 				2F345D7F18E95E1500102068 /* LCYDefaultCakeCell.m in Sources */,
 				8A851BA716FB2F6D00E911DB /* UnityView.mm in Sources */,
@@ -1009,6 +1041,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F3D28A818F53BDB00C9B136 /* CakeDIY.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F3D28A918F53BDB00C9B136 /* CakeDIY.xcdatamodel */,
+			);
+			currentVersion = 2F3D28A918F53BDB00C9B136 /* CakeDIY.xcdatamodel */;
+			path = CakeDIY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

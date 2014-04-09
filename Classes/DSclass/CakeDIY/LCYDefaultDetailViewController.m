@@ -10,10 +10,14 @@
 #import "LCYDefaultDetailTableViewCell.h"
 #import "LCYDefaultOrderViewController.h"
 
+#import "DefaultToSize.h"
+#import "CakeSize.h"
+
 @interface LCYDefaultDetailViewController ()
 <UITableViewDelegate, UITableViewDataSource>
 {
     BOOL isNibRegistered;
+    NSNumber *sizeID;
 }
 
 /**
@@ -45,6 +49,10 @@
  *  尺寸弹窗
  */
 @property (strong, nonatomic) IBOutlet UIView *sizePopView;
+/**
+ *  尺寸数组
+ */
+@property (strong, nonatomic) NSArray *sizeArray;
 
 @end
 
@@ -75,13 +83,29 @@
     
     // 载入蛋糕数据
     NSAssert(self.icyCake!=nil, @"载入蛋糕信息失败");
-    self.icyCake.sizeIndex = 0;
     self.nameLabel.text = self.icyCake.name;
     self.priceLabel.text = [NSString stringWithFormat:@"%@ 元",self.icyCake.price];
     self.materialLabel.text = self.icyCake.material;
     self.descriptionTextView.text = self.icyCake.description__;
-    NSDictionary *sizeDictionary = [self.icyCake.size objectAtIndex:0];
-    self.sizeLabel.text = [NSString stringWithFormat:@"%@ %@",[sizeDictionary objectForKey:@"number"],[sizeDictionary objectForKey:@"description"]];
+    
+    NSMutableArray *tmpArray = [[NSMutableArray alloc] init];
+    for (DefaultToSize *sz in self.icyCake.sizes) {
+        [tmpArray addObject:sz];
+    }
+    self.sizeArray = [NSArray arrayWithArray:[tmpArray sortedArrayUsingComparator:^NSComparisonResult(id obj1, id obj2) {
+        DefaultToSize *ob1 = obj1;
+        DefaultToSize *ob2 = obj2;
+        if (ob1.theSize.id__.integerValue < ob2.theSize.id__.integerValue) {
+            return NSOrderedAscending;
+        } else {
+            return NSOrderedDescending;
+        }
+    }]];
+    DefaultToSize *relation = [self.sizeArray firstObject];
+    CakeSize *oneSize = relation.theSize;
+    sizeID = oneSize.id__;
+    self.sizeLabel.text = [NSString stringWithFormat:@"%@ %@",oneSize.size,oneSize.description__];
+
     
     // 弹窗样式
     [self.sizePopView.layer setCornerRadius:5];
@@ -121,6 +145,7 @@
 - (IBAction)orderButtonPressed:(id)sender {
     LCYDefaultOrderViewController *orderVC = [[LCYDefaultOrderViewController alloc] init];
     orderVC.icyCake = self.icyCake;
+    orderVC.sizeID = sizeID;
     [self.navigationController pushViewController:orderVC animated:YES];
 }
 
@@ -128,7 +153,7 @@
 #pragma mark - UITableView Data Source And Delegate Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     NSAssert(self.icyCake!=nil, @"生成表单时，无法载入蛋糕信息");
-    return [self.icyCake.size count];
+    return [self.icyCake.sizes count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -140,8 +165,8 @@
     }
     LCYDefaultDetailTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     NSUInteger row = [indexPath row];
-    NSDictionary *sizeDictionary = [self.icyCake.size objectAtIndex:row];
-    cell.icyLabel.text = [NSString stringWithFormat:@"%@ %@",[sizeDictionary objectForKey:@"number"],[sizeDictionary objectForKey:@"description"]];
+    DefaultToSize *size = [self.sizeArray objectAtIndex:row];
+    cell.icyLabel.text = [NSString stringWithFormat:@"%@ %@",size.theSize.size,size.theSize.description__];
     return cell;
 }
 
@@ -153,12 +178,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = [indexPath row];
-    NSDictionary *sizeDictionary = [self.icyCake.size objectAtIndex:row];
-    self.sizeLabel.text = [NSString stringWithFormat:@"%@ %@",[sizeDictionary objectForKey:@"number"],[sizeDictionary objectForKey:@"description"]];
+    DefaultToSize *size = [self.sizeArray objectAtIndex:row];
+    self.sizeLabel.text = [NSString stringWithFormat:@"%@ %@",size.theSize.size,size.theSize.description__];
     if (self.sizePopView.superview) {
         [self.sizePopView removeFromSuperview];
     }
-    self.icyCake.sizeIndex = row;
+    sizeID = size.theSize.id__;
 }
 
 @end

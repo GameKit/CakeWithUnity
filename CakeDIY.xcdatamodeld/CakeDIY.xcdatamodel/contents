@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CakeSize" representedClassName="CakeSize" syncable="YES">
+        <attribute name="description__" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id__" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cakes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DefaultToSize" inverseName="theSize" inverseEntity="DefaultToSize" syncable="YES"/>
+    </entity>
+    <entity name="DefaultCake" representedClassName="DefaultCake" syncable="YES">
+        <attribute name="description__" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id__" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="material" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="sizes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DefaultToSize" inverseName="theCake" inverseEntity="DefaultToSize" syncable="YES"/>
+    </entity>
+    <entity name="DefaultToSize" representedClassName="DefaultToSize" syncable="YES">
+        <attribute name="cakeID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sizeID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="theCake" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DefaultCake" inverseName="sizes" inverseEntity="DefaultCake" syncable="YES"/>
+        <relationship name="theSize" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CakeSize" inverseName="cakes" inverseEntity="CakeSize" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CakeSize" positionX="259" positionY="9" width="128" height="103"/>
+        <element name="DefaultCake" positionX="-119" positionY="-9" width="128" height="163"/>
+        <element name="DefaultToSize" positionX="70" positionY="9" width="128" height="103"/>
+    </elements>
+</model>

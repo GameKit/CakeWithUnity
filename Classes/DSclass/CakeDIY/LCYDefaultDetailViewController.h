@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LCYDefaultCakeDataModel.h"
+#import "DefaultCake.h"
 @interface LCYDefaultDetailViewController : UIViewController
-@property (strong, nonatomic) LCYDefaultCakeDataModel *icyCake;
+@property (strong, nonatomic) DefaultCake *icyCake;
 @end

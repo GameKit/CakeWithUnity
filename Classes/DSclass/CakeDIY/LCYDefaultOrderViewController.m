@@ -7,6 +7,8 @@
 //
 
 #import "LCYDefaultOrderViewController.h"
+#import "CakeSize.h"
+#import "DefaultToSize.h"
 
 @interface LCYDefaultOrderViewController ()
 <UITextFieldDelegate>
@@ -81,8 +83,16 @@
     // 载入蛋糕信息
     NSAssert(self.icyCake!=nil, @"生成订单时，加载蛋糕信息失败");
     self.cakeNameLabel.text = [NSString stringWithFormat:@"名称：%@",self.icyCake.name];
-    NSDictionary *sizeDictionary = [self.icyCake.size objectAtIndex:self.icyCake.sizeIndex];
-    self.cakeSizeLabel.text = [NSString stringWithFormat:@"尺寸：%@",[sizeDictionary objectForKey:@"number"]];
+//    NSDictionary *sizeDictionary = [self.icyCake.size objectAtIndex:self.icyCake.sizeIndex];
+    NSString *sizeString;
+    for (DefaultToSize *rl in self.icyCake.sizes) {
+        if (rl.theSize.id__.integerValue == self.sizeID.integerValue) {
+            sizeString = rl.theSize.size;
+            break;
+        }
+    }
+    
+    self.cakeSizeLabel.text = [NSString stringWithFormat:@"尺寸：%@",sizeString];
     self.cakePriceLabel.text = [NSString stringWithFormat:@"价格：%@ 元", self.icyCake.price];
     
     // 设置光标颜色

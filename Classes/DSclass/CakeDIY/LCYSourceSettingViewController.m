@@ -12,13 +12,14 @@
 #import "LCYSourceSettingCollectionCell.h"
 #import "LCYSettingDIYCell.h"
 
-#define patternNumber 12
+//#define patternNumber 12
 #define diyNumber 88
 @interface LCYSourceSettingViewController ()
 <UICollectionViewDelegate,UICollectionViewDataSource>
 {
     BOOL LCYSourceSettingCollectionCellRegistered;
     BOOL LCYSettingDIYCellRegistered;
+    NSInteger patternNumber;
 }
 
 /**
@@ -29,6 +30,10 @@
  *  DIY素材是否选中
  */
 @property (strong, nonatomic) NSMutableArray * diyStatus;
+/**
+ *  蛋糕样式
+ */
+@property (strong, nonatomic) NSMutableArray *cakeSource;
 
 @end
 
@@ -50,9 +55,13 @@
     LCYSourceSettingCollectionCellRegistered = NO;
     LCYSettingDIYCellRegistered = NO;
     
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
+    self.cakeSource = [NSMutableArray arrayWithContentsOfFile:filePath];
+    patternNumber = [self.cakeSource count];
+    
     self.settingPatternStatus = [[NSMutableArray alloc] init];
     for (int i=0 ; i<patternNumber; i++) {
-        [self.settingPatternStatus addObject:[NSNumber numberWithBool:YES]];
+        [self.settingPatternStatus addObject:[[self.cakeSource objectAtIndex:i] objectForKey:@"selected"]];
     }
     self.diyStatus = [[NSMutableArray alloc] init];
     for (int i=0; i<diyNumber; i++) {
@@ -172,6 +181,15 @@
 - (IBAction)confirmButtonPressed:(id)sender {
     // 蛋糕样式开启状态
     if (self.cakePatternView.superview) {
+        for (int i=0 ; i<patternNumber; i++) {
+//            NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:[self.cakeSource objectAtIndex:i]];
+            NSMutableDictionary *dic = [self.cakeSource objectAtIndex:i];
+            [dic setValue:[self.settingPatternStatus objectAtIndex:i] forKey:@"selected"];
+        }
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
+
+        NSLog(@"self.cakeSource=%@",self.cakeSource);
+        [self.cakeSource writeToFile:filePath atomically:YES];
         [self performSelector:@selector(cakePatternButtonPressed:) withObject:nil];
     }
     // DIY素材开启状态
