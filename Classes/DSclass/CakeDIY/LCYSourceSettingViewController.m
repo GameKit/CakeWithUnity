@@ -11,6 +11,8 @@
 #import "LCYCommon.h"
 #import "LCYSourceSettingCollectionCell.h"
 #import "LCYSettingDIYCell.h"
+#import "UnityAppController.h"
+#import "DefaultCake.h"
 
 //#define patternNumber 12
 #define diyNumber 88
@@ -30,10 +32,19 @@
  *  DIY素材是否选中
  */
 @property (strong, nonatomic) NSMutableArray * diyStatus;
+
+
+///**
+// *  蛋糕样式--Deprecated;
+// */
+//@property (strong, nonatomic) NSMutableArray *cakeSource;
+
+@property (strong, nonatomic) NSManagedObjectContext *context;
+
 /**
- *  蛋糕样式
+ *  蛋糕样式数组-由CoreData加载
  */
-@property (strong, nonatomic) NSMutableArray *cakeSource;
+@property (strong, nonatomic) NSArray *defaultCakeArray;
 
 @end
 
@@ -54,14 +65,29 @@
     // Do any additional setup after loading the view from its nib.
     LCYSourceSettingCollectionCellRegistered = NO;
     LCYSettingDIYCellRegistered = NO;
+    UnityAppController *ad = (UnityAppController *)[UIApplication sharedApplication].delegate;
+    self.context = ad.managedObjectContext;
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
-    self.cakeSource = [NSMutableArray arrayWithContentsOfFile:filePath];
-    patternNumber = [self.cakeSource count];
+    // 加载蛋糕样式
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"DefaultCake" inManagedObjectContext:self.context];
+    [fetchRequest setEntity:entity];
+    NSError *error = nil;
+    NSArray *fetchedObjects = [self.context executeFetchRequest:fetchRequest error:&error];
+    self.defaultCakeArray = [NSArray arrayWithArray:fetchedObjects];
+    patternNumber = [self.defaultCakeArray count];
+    
+//    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
+//    self.cakeSource = [NSMutableArray arrayWithContentsOfFile:filePath];
+//    patternNumber = [self.cakeSource count];
+    
+    
     
     self.settingPatternStatus = [[NSMutableArray alloc] init];
     for (int i=0 ; i<patternNumber; i++) {
-        [self.settingPatternStatus addObject:[[self.cakeSource objectAtIndex:i] objectForKey:@"selected"]];
+//        [self.settingPatternStatus addObject:[[self.cakeSource objectAtIndex:i] objectForKey:@"selected"]];
+        DefaultCake *cake = [self.defaultCakeArray objectAtIndex:i];
+        [self.settingPatternStatus addObject:cake.selected];
     }
     self.diyStatus = [[NSMutableArray alloc] init];
     for (int i=0; i<diyNumber; i++) {
@@ -115,6 +141,8 @@
             self.diyButton.enabled = YES;
         }];
     } else {
+        NSError *error;
+        [self.context save:&error];
         [self.confirmButton setHidden:YES];
         [UIView animateWithDuration:duration_t
                          animations:^{
@@ -143,7 +171,7 @@
     
     self.patternButton.enabled = NO;
     self.diyButton.enabled = NO;
-
+    
     CGRect frame = CGRectMake(100, 37, 723, 729);
     [self.diySourceView setFrame:frame];
     if (!self.diySourceView.superview) {
@@ -181,15 +209,6 @@
 - (IBAction)confirmButtonPressed:(id)sender {
     // 蛋糕样式开启状态
     if (self.cakePatternView.superview) {
-        for (int i=0 ; i<patternNumber; i++) {
-//            NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:[self.cakeSource objectAtIndex:i]];
-            NSMutableDictionary *dic = [self.cakeSource objectAtIndex:i];
-            [dic setValue:[self.settingPatternStatus objectAtIndex:i] forKey:@"selected"];
-        }
-        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
-
-        NSLog(@"self.cakeSource=%@",self.cakeSource);
-        [self.cakeSource writeToFile:filePath atomically:YES];
         [self performSelector:@selector(cakePatternButtonPressed:) withObject:nil];
     }
     // DIY素材开启状态
@@ -262,6 +281,8 @@
         BOOL isTicked = [[self.settingPatternStatus objectAtIndex:indexPath.row] boolValue];
         BOOL newIsTicked = !isTicked;
         [self.settingPatternStatus replaceObjectAtIndex:indexPath.row withObject:[NSNumber numberWithBool:newIsTicked]];
+        DefaultCake *cake = [self.defaultCakeArray objectAtIndex:indexPath.row];
+        cake.selected = [NSNumber numberWithBool:newIsTicked];
         LCYSourceSettingCollectionCell *cell = (LCYSourceSettingCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
         if (newIsTicked) {
             [cell tickOn];
