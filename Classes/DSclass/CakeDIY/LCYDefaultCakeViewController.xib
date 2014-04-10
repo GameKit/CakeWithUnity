@@ -25,13 +25,13 @@
                     <state key="normal" image="left_arrow.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <state key="highlighted" image="left_arrow.png"/>
+                    <state key="highlighted" image="left_arrowSelected.png"/>
                     <connections>
                         <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="V8i-aX-bAs"/>
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultCakeTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-ac-2KL">
-                    <rect key="frame" x="428" y="53" width="125" height="33"/>
+                    <rect key="frame" x="427" y="54" width="126" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vph-uj-7Ea">
@@ -78,10 +78,11 @@
     </objects>
     <resources>
         <image name="background.png" width="1024" height="768"/>
-        <image name="defaultCakeTitle.png" width="125" height="33"/>
+        <image name="defaultCakeTitle.png" width="126" height="31"/>
         <image name="defaultDIYButton.png" width="110" height="27"/>
         <image name="defaultDIYButtonSelected.png" width="110" height="27"/>
         <image name="left_arrow.png" width="21" height="22"/>
+        <image name="left_arrowSelected.png" width="21" height="22"/>
         <image name="titlePattern.png" width="334" height="29"/>
     </resources>
 </document>

@@ -17,11 +17,12 @@
 //#define patternNumber 12
 #define diyNumber 88
 @interface LCYSourceSettingViewController ()
-<UICollectionViewDelegate,UICollectionViewDataSource>
+<UICollectionViewDelegate,UICollectionViewDataSource,UIAlertViewDelegate>
 {
     BOOL LCYSourceSettingCollectionCellRegistered;
     BOOL LCYSettingDIYCellRegistered;
     NSInteger patternNumber;
+    BOOL isSettingSaved;
 }
 
 /**
@@ -65,6 +66,7 @@
     // Do any additional setup after loading the view from its nib.
     LCYSourceSettingCollectionCellRegistered = NO;
     LCYSettingDIYCellRegistered = NO;
+    isSettingSaved = YES;
     UnityAppController *ad = (UnityAppController *)[UIApplication sharedApplication].delegate;
     self.context = ad.managedObjectContext;
     
@@ -77,15 +79,15 @@
     self.defaultCakeArray = [NSArray arrayWithArray:fetchedObjects];
     patternNumber = [self.defaultCakeArray count];
     
-//    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
-//    self.cakeSource = [NSMutableArray arrayWithContentsOfFile:filePath];
-//    patternNumber = [self.cakeSource count];
+    //    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"DefaultCake" ofType:@"plist"];
+    //    self.cakeSource = [NSMutableArray arrayWithContentsOfFile:filePath];
+    //    patternNumber = [self.cakeSource count];
     
     
     
     self.settingPatternStatus = [[NSMutableArray alloc] init];
     for (int i=0 ; i<patternNumber; i++) {
-//        [self.settingPatternStatus addObject:[[self.cakeSource objectAtIndex:i] objectForKey:@"selected"]];
+        //        [self.settingPatternStatus addObject:[[self.cakeSource objectAtIndex:i] objectForKey:@"selected"]];
         DefaultCake *cake = [self.defaultCakeArray objectAtIndex:i];
         [self.settingPatternStatus addObject:cake.selected];
     }
@@ -110,7 +112,17 @@
  *  @param sender 按钮
  */
 - (IBAction)backButtonPressed:(id)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    if (isSettingSaved) {
+        [self.navigationController popViewControllerAnimated:YES];
+    } else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                        message:@"您有未保存的设置，是否需要保存"
+                                                       delegate:self
+                                              cancelButtonTitle:@"是"
+                                              otherButtonTitles:@"否", nil];
+        [alert show];
+    }
+    
 }
 /**
  *  蛋糕样式
@@ -141,8 +153,13 @@
             self.diyButton.enabled = YES;
         }];
     } else {
+        for (int i=0; i<[self.defaultCakeArray count]; i++) {
+            DefaultCake *cake = [self.defaultCakeArray objectAtIndex:i];
+            cake.selected = [self.settingPatternStatus objectAtIndex:i];
+        }
         NSError *error;
         [self.context save:&error];
+        
         [self.confirmButton setHidden:YES];
         [UIView animateWithDuration:duration_t
                          animations:^{
@@ -207,6 +224,9 @@
  *  @param sender 按钮
  */
 - (IBAction)confirmButtonPressed:(id)sender {
+    if (!isSettingSaved) {
+        isSettingSaved = YES;
+    }
     // 蛋糕样式开启状态
     if (self.cakePatternView.superview) {
         [self performSelector:@selector(cakePatternButtonPressed:) withObject:nil];
@@ -277,12 +297,15 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (isSettingSaved) {
+        isSettingSaved = NO;
+    }
     if (collectionView == self.patternCollectionView) {
         BOOL isTicked = [[self.settingPatternStatus objectAtIndex:indexPath.row] boolValue];
         BOOL newIsTicked = !isTicked;
         [self.settingPatternStatus replaceObjectAtIndex:indexPath.row withObject:[NSNumber numberWithBool:newIsTicked]];
-        DefaultCake *cake = [self.defaultCakeArray objectAtIndex:indexPath.row];
-        cake.selected = [NSNumber numberWithBool:newIsTicked];
+        //        DefaultCake *cake = [self.defaultCakeArray objectAtIndex:indexPath.row];
+        //        cake.selected = [NSNumber numberWithBool:newIsTicked];
         LCYSourceSettingCollectionCell *cell = (LCYSourceSettingCollectionCell *)[collectionView cellForItemAtIndexPath:indexPath];
         if (newIsTicked) {
             [cell tickOn];
@@ -299,6 +322,24 @@
         } else {
             [cell tickOff];
         }
+    }
+}
+
+#pragma mark - UIAlertViewDelegate
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    switch (buttonIndex) {
+        case 0:
+            // 保存
+            [self performSelector:@selector(confirmButtonPressed:) withObject:nil];
+            [self performSelector:@selector(backButtonPressed:) withObject:nil];
+            break;
+        case 1:
+            // 不保存
+            isSettingSaved = YES;
+            [self performSelector:@selector(backButtonPressed:) withObject:nil];
+            break;
+        default:
+            break;
     }
 }
 

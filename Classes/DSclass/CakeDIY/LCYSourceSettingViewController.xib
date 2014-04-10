@@ -64,7 +64,7 @@
                     <state key="normal" image="left_arrow.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <state key="highlighted" image="left_arrow.png"/>
+                    <state key="highlighted" image="left_arrowSelected.png"/>
                     <connections>
                         <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="Z5s-kx-yJr"/>
                     </connections>
@@ -74,7 +74,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="settingHeaderTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uka-uW-lCc">
-                    <rect key="frame" x="481" y="53" width="63" height="32"/>
+                    <rect key="frame" x="449" y="54" width="126" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hig-vT-zou">
@@ -162,10 +162,11 @@
     <resources>
         <image name="background.png" width="1024" height="768"/>
         <image name="left_arrow.png" width="21" height="22"/>
+        <image name="left_arrowSelected.png" width="21" height="22"/>
         <image name="settingConfirm.png" width="108" height="29"/>
         <image name="settingConfirmSelected.png" width="108" height="29"/>
         <image name="settingDownArrow.png" width="24" height="13"/>
-        <image name="settingHeaderTitle.png" width="63" height="32"/>
+        <image name="settingHeaderTitle.png" width="126" height="31"/>
         <image name="setting_cake_butterfly.png" width="154" height="154"/>
         <image name="setting_cake_butterflySelected.png" width="154" height="154"/>
         <image name="setting_cake_pattern_background.png" width="709" height="710"/>

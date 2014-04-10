@@ -28,18 +28,14 @@
 		2F345D4F18E95E1500102068 /* defaultCakeDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */; };
 		2F345D5018E95E1500102068 /* defaultCakeDetailDemo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */; };
 		2F345D5118E95E1500102068 /* DefaultCakeMakeOrder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */; };
-		2F345D5218E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */; };
 		2F345D5318E95E1500102068 /* DefaultCakeSizeArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */; };
 		2F345D5418E95E1500102068 /* DefaultCakeSizeBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */; };
-		2F345D5518E95E1500102068 /* defaultCakeTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */; };
 		2F345D5618E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */; };
 		2F345D5718E95E1500102068 /* DefaultDetailMessagePattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */; };
 		2F345D5818E95E1500102068 /* defaultDetailTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */; };
 		2F345D5918E95E1500102068 /* defaultDIYButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */; };
-		2F345D5A18E95E1500102068 /* defaultDIYButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */; };
 		2F345D5B18E95E1500102068 /* DefaultOrderBackPattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */; };
 		2F345D5C18E95E1500102068 /* defaultOrderButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */; };
-		2F345D5D18E95E1500102068 /* defaultOrderButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */; };
 		2F345D5E18E95E1500102068 /* defaultOrderCakeBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */; };
 		2F345D5F18E95E1500102068 /* defaultOrderTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */; };
 		2F345D6018E95E1500102068 /* defaultSizePopBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */; };
@@ -60,9 +56,7 @@
 		2F345D6F18E95E1500102068 /* setting_whisk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1718E95E1500102068 /* setting_whisk@2x.png */; };
 		2F345D7018E95E1500102068 /* setting_whiskSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */; };
 		2F345D7118E95E1500102068 /* settingConfirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1918E95E1500102068 /* settingConfirm@2x.png */; };
-		2F345D7218E95E1500102068 /* settingConfirmSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */; };
 		2F345D7318E95E1500102068 /* settingDownArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */; };
-		2F345D7418E95E1500102068 /* settingHeaderTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */; };
 		2F345D7518E95E1500102068 /* settingTick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1D18E95E1500102068 /* settingTick@2x.png */; };
 		2F345D7618E95E1500102068 /* settingTickBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1E18E95E1500102068 /* settingTickBack@2x.png */; };
 		2F345D7718E95E1500102068 /* SlideSiwtchButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */; };
@@ -100,6 +94,13 @@
 		2F3D28B518F53D0600C9B136 /* DefaultCake.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28B118F53D0600C9B136 /* DefaultCake.m */; };
 		2F3D28B618F53D0600C9B136 /* DefaultToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3D28B318F53D0600C9B136 /* DefaultToSize.m */; };
 		2F3D28B818F54CD000C9B136 /* CoreDataGenerator.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2F3D28B718F54CD000C9B136 /* CoreDataGenerator.sqlite */; };
+		2F515AE018F63F9F00DDBF8C /* left_arrowSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515ADF18F63F9F00DDBF8C /* left_arrowSelected@2x.png */; };
+		2F515AE218F640D000DDBF8C /* defaultDIYButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AE118F640D000DDBF8C /* defaultDIYButtonSelected@2x.png */; };
+		2F515AE418F6419F00DDBF8C /* settingConfirmSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AE318F6419F00DDBF8C /* settingConfirmSelected@2x.png */; };
+		2F515AE618F6451700DDBF8C /* DefaultCakeMakeOrderSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AE518F6451700DDBF8C /* DefaultCakeMakeOrderSelected@2x.png */; };
+		2F515AE818F6455700DDBF8C /* defaultOrderButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AE718F6455700DDBF8C /* defaultOrderButtonSelected@2x.png */; };
+		2F515AEA18F645E800DDBF8C /* settingHeaderTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AE918F645E800DDBF8C /* settingHeaderTitle@2x.png */; };
+		2F515AEC18F646D700DDBF8C /* defaultCakeTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F515AEB18F646D700DDBF8C /* defaultCakeTitle@2x.png */; };
 		2FD6DBDA18EE5B8900159DD0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD6DBD918EE5B8900159DD0 /* CoreData.framework */; };
 		5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682F4B10F3B34FF007A219C /* MediaPlayer.framework */; };
 		5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */; };
@@ -194,18 +195,14 @@
 		2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeDemo@2x.png"; sourceTree = "<group>"; };
 		2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeDetailDemo@2x.png"; sourceTree = "<group>"; };
 		2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeMakeOrder@2x.png"; sourceTree = "<group>"; };
-		2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeMakeOrderSelected@2x.png"; sourceTree = "<group>"; };
 		2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeSizeArrow@2x.png"; sourceTree = "<group>"; };
 		2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeSizeBackground@2x.png"; sourceTree = "<group>"; };
-		2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeTitle@2x.png"; sourceTree = "<group>"; };
 		2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultDetailDescriptionBackground@2x.png"; sourceTree = "<group>"; };
 		2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultDetailMessagePattern@2x.png"; sourceTree = "<group>"; };
 		2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDetailTitle@2x.png"; sourceTree = "<group>"; };
 		2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDIYButton@2x.png"; sourceTree = "<group>"; };
-		2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDIYButtonSelected@2x.png"; sourceTree = "<group>"; };
 		2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultOrderBackPattern@2x.png"; sourceTree = "<group>"; };
 		2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderButton@2x.png"; sourceTree = "<group>"; };
-		2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderButtonSelected@2x.png"; sourceTree = "<group>"; };
 		2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderCakeBg@2x.png"; sourceTree = "<group>"; };
 		2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderTitle@2x.png"; sourceTree = "<group>"; };
 		2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultSizePopBackground@2x.png"; sourceTree = "<group>"; };
@@ -226,9 +223,7 @@
 		2F345D1718E95E1500102068 /* setting_whisk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_whisk@2x.png"; sourceTree = "<group>"; };
 		2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting_whiskSelected@2x.png"; sourceTree = "<group>"; };
 		2F345D1918E95E1500102068 /* settingConfirm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingConfirm@2x.png"; sourceTree = "<group>"; };
-		2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingConfirmSelected@2x.png"; sourceTree = "<group>"; };
 		2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingDownArrow@2x.png"; sourceTree = "<group>"; };
-		2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingHeaderTitle@2x.png"; sourceTree = "<group>"; };
 		2F345D1D18E95E1500102068 /* settingTick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTick@2x.png"; sourceTree = "<group>"; };
 		2F345D1E18E95E1500102068 /* settingTickBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingTickBack@2x.png"; sourceTree = "<group>"; };
 		2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlideSiwtchButton@2x.png"; sourceTree = "<group>"; };
@@ -280,6 +275,13 @@
 		2F3D28B218F53D0600C9B136 /* DefaultToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultToSize.h; sourceTree = "<group>"; };
 		2F3D28B318F53D0600C9B136 /* DefaultToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultToSize.m; sourceTree = "<group>"; };
 		2F3D28B718F54CD000C9B136 /* CoreDataGenerator.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataGenerator.sqlite; sourceTree = "<group>"; };
+		2F515ADF18F63F9F00DDBF8C /* left_arrowSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrowSelected@2x.png"; sourceTree = "<group>"; };
+		2F515AE118F640D000DDBF8C /* defaultDIYButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultDIYButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F515AE318F6419F00DDBF8C /* settingConfirmSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingConfirmSelected@2x.png"; sourceTree = "<group>"; };
+		2F515AE518F6451700DDBF8C /* DefaultCakeMakeOrderSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DefaultCakeMakeOrderSelected@2x.png"; sourceTree = "<group>"; };
+		2F515AE718F6455700DDBF8C /* defaultOrderButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultOrderButtonSelected@2x.png"; sourceTree = "<group>"; };
+		2F515AE918F645E800DDBF8C /* settingHeaderTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settingHeaderTitle@2x.png"; sourceTree = "<group>"; };
+		2F515AEB18F646D700DDBF8C /* defaultCakeTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultCakeTitle@2x.png"; sourceTree = "<group>"; };
 		2FD6DBD918EE5B8900159DD0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5682F4B10F3B34FF007A219C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -508,24 +510,25 @@
 				2F345CF718E95E1500102068 /* defaultCakeDemo@2x.png */,
 				2F345CF818E95E1500102068 /* defaultCakeDetailDemo@2x.png */,
 				2F345CF918E95E1500102068 /* DefaultCakeMakeOrder@2x.png */,
-				2F345CFA18E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png */,
+				2F515AE518F6451700DDBF8C /* DefaultCakeMakeOrderSelected@2x.png */,
 				2F345CFB18E95E1500102068 /* DefaultCakeSizeArrow@2x.png */,
 				2F345CFC18E95E1500102068 /* DefaultCakeSizeBackground@2x.png */,
-				2F345CFD18E95E1500102068 /* defaultCakeTitle@2x.png */,
+				2F515AEB18F646D700DDBF8C /* defaultCakeTitle@2x.png */,
 				2F345CFE18E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png */,
 				2F345CFF18E95E1500102068 /* DefaultDetailMessagePattern@2x.png */,
 				2F345D0018E95E1500102068 /* defaultDetailTitle@2x.png */,
 				2F345D0118E95E1500102068 /* defaultDIYButton@2x.png */,
-				2F345D0218E95E1500102068 /* defaultDIYButtonSelected@2x.png */,
+				2F515AE118F640D000DDBF8C /* defaultDIYButtonSelected@2x.png */,
 				2F345D0318E95E1500102068 /* DefaultOrderBackPattern@2x.png */,
 				2F345D0418E95E1500102068 /* defaultOrderButton@2x.png */,
-				2F345D0518E95E1500102068 /* defaultOrderButtonSelected@2x.png */,
+				2F515AE718F6455700DDBF8C /* defaultOrderButtonSelected@2x.png */,
 				2F345D0618E95E1500102068 /* defaultOrderCakeBg@2x.png */,
 				2F345D0718E95E1500102068 /* defaultOrderTitle@2x.png */,
 				2F345D0818E95E1500102068 /* defaultSizePopBackground@2x.png */,
 				2F345D0918E95E1500102068 /* DIYBitButton@2x.png */,
 				2F345D0A18E95E1500102068 /* DIYBitButtonSelected@2x.png */,
 				2F345D0B18E95E1500102068 /* fruitDemo@2x.png */,
+				2F515ADF18F63F9F00DDBF8C /* left_arrowSelected@2x.png */,
 				2F345D0C18E95E1500102068 /* left_arrow@2x.png */,
 				2F345D0D18E95E1500102068 /* mainChoose@2x.png */,
 				2F345D0E18E95E1500102068 /* MainChooseButton@2x.png */,
@@ -540,11 +543,11 @@
 				2F345D1718E95E1500102068 /* setting_whisk@2x.png */,
 				2F345D1818E95E1500102068 /* setting_whiskSelected@2x.png */,
 				2F345D1918E95E1500102068 /* settingConfirm@2x.png */,
-				2F345D1A18E95E1500102068 /* settingConfirmSelected@2x.png */,
+				2F515AE318F6419F00DDBF8C /* settingConfirmSelected@2x.png */,
 				2F345D1B18E95E1500102068 /* settingDownArrow@2x.png */,
-				2F345D1C18E95E1500102068 /* settingHeaderTitle@2x.png */,
 				2F345D1D18E95E1500102068 /* settingTick@2x.png */,
 				2F345D1E18E95E1500102068 /* settingTickBack@2x.png */,
+				2F515AE918F645E800DDBF8C /* settingHeaderTitle@2x.png */,
 				2F345D1F18E95E1500102068 /* SlideSiwtchButton@2x.png */,
 				2F345D2018E95E1500102068 /* source_cake_style@2x.png */,
 				2F345D2118E95E1500102068 /* source_diy_source@2x.png */,
@@ -739,11 +742,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F345D7218E95E1500102068 /* settingConfirmSelected@2x.png in Resources */,
 				2F345D5F18E95E1500102068 /* defaultOrderTitle@2x.png in Resources */,
+				2F515AEC18F646D700DDBF8C /* defaultCakeTitle@2x.png in Resources */,
 				2F3D28B818F54CD000C9B136 /* CoreDataGenerator.sqlite in Resources */,
 				2F345D6918E95E1500102068 /* MainSlideBackground@2x.png in Resources */,
-				2F345D5218E95E1500102068 /* DefaultCakeMakeOrderSelected@2x.png in Resources */,
 				2F345D7E18E95E1500102068 /* VersionInfoSelected@2x.png in Resources */,
 				2F345D6B18E95E1500102068 /* setting_cake_butterfly@2x.png in Resources */,
 				2F345D7C18E95E1500102068 /* titlePattern@2x.png in Resources */,
@@ -755,7 +757,6 @@
 				2F02DDFF18EA61A20043DD75 /* diySideLv1ExampleSelected@2x.png in Resources */,
 				2F345D5718E95E1500102068 /* DefaultDetailMessagePattern@2x.png in Resources */,
 				2F345D7018E95E1500102068 /* setting_whiskSelected@2x.png in Resources */,
-				2F345D5D18E95E1500102068 /* defaultOrderButtonSelected@2x.png in Resources */,
 				2F345D7118E95E1500102068 /* settingConfirm@2x.png in Resources */,
 				2F345D5E18E95E1500102068 /* defaultOrderCakeBg@2x.png in Resources */,
 				2F345D6018E95E1500102068 /* defaultSizePopBackground@2x.png in Resources */,
@@ -767,12 +768,12 @@
 				2F345D5318E95E1500102068 /* DefaultCakeSizeArrow@2x.png in Resources */,
 				2F345D6C18E95E1500102068 /* setting_cake_butterflySelected@2x.png in Resources */,
 				2F345D6D18E95E1500102068 /* setting_cake_pattern_background@2x.png in Resources */,
-				2F345D7418E95E1500102068 /* settingHeaderTitle@2x.png in Resources */,
 				2F345D5418E95E1500102068 /* DefaultCakeSizeBackground@2x.png in Resources */,
 				2F345D6E18E95E1500102068 /* setting_diy_background@2x.png in Resources */,
 				2F345D6218E95E1500102068 /* DIYBitButtonSelected@2x.png in Resources */,
 				2F345D7518E95E1500102068 /* settingTick@2x.png in Resources */,
 				2F345D6818E95E1500102068 /* mainDIY@2x.png in Resources */,
+				2F515AE218F640D000DDBF8C /* defaultDIYButtonSelected@2x.png in Resources */,
 				2F345D8B18E95E1500102068 /* LCYMainViewController.xib in Resources */,
 				B4FC749618E1942F006AEB61 /* DiyCakeViewController.xib in Resources */,
 				2F345D5118E95E1500102068 /* DefaultCakeMakeOrder@2x.png in Resources */,
@@ -793,12 +794,14 @@
 				2F345D9618E9662200102068 /* Images.xcassets in Resources */,
 				2F02DDF718EA60680043DD75 /* diySideLv1CandleSelected@2x.png in Resources */,
 				2F345D7B18E95E1500102068 /* SourceSettingSelected@2x.png in Resources */,
+				2F515AE418F6419F00DDBF8C /* settingConfirmSelected@2x.png in Resources */,
 				2F345D5018E95E1500102068 /* defaultCakeDetailDemo@2x.png in Resources */,
 				2F345D8318E95E1500102068 /* LCYDefaultCakeViewController.xib in Resources */,
-				2F345D5A18E95E1500102068 /* defaultDIYButtonSelected@2x.png in Resources */,
+				2F515AE618F6451700DDBF8C /* DefaultCakeMakeOrderSelected@2x.png in Resources */,
 				2F02DDEF18EA5EC50043DD75 /* diySideLv1Background@2x.png in Resources */,
 				2F345D7D18E95E1500102068 /* VersionInfo@2x.png in Resources */,
 				2F345D5618E95E1500102068 /* DefaultDetailDescriptionBackground@2x.png in Resources */,
+				2F515AEA18F645E800DDBF8C /* settingHeaderTitle@2x.png in Resources */,
 				2F345D7318E95E1500102068 /* settingDownArrow@2x.png in Resources */,
 				2F345D8D18E95E1500102068 /* LCYSettingDIYCell.xib in Resources */,
 				2F345D4D18E95E1500102068 /* background@2x.png in Resources */,
@@ -816,9 +819,10 @@
 				2F345D4E18E95E1500102068 /* cakeDemo@2x.png in Resources */,
 				2F345D5C18E95E1500102068 /* defaultOrderButton@2x.png in Resources */,
 				2F02DDF218EA5FB30043DD75 /* diySideLv1Fruit@2x.png in Resources */,
+				2F515AE818F6455700DDBF8C /* defaultOrderButtonSelected@2x.png in Resources */,
 				2F345D7A18E95E1500102068 /* SourceSetting@2x.png in Resources */,
 				2F02DDFA18EA610D0043DD75 /* diySideLv1Cookie@2x.png in Resources */,
-				2F345D5518E95E1500102068 /* defaultCakeTitle@2x.png in Resources */,
+				2F515AE018F63F9F00DDBF8C /* left_arrowSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

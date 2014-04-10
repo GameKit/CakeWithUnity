@@ -26,6 +26,7 @@
                     <state key="normal" image="left_arrow.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="highlighted" image="left_arrowSelected.png"/>
                     <connections>
                         <action selector="backToMain:" destination="-1" eventType="touchUpInside" id="OP4-Tg-N3v"/>
                     </connections>
@@ -134,5 +135,6 @@
         <image name="diySideLv1Others.png" width="82" height="82"/>
         <image name="diySideLv1OthersSelected.png" width="83" height="82"/>
         <image name="left_arrow.png" width="21" height="22"/>
+        <image name="left_arrowSelected.png" width="21" height="22"/>
     </resources>
 </document>
